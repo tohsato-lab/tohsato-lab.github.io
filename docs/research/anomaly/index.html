@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>異常検知 | 計算生物学研究室</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+  研究テーマ：
+
+  
+  
+    研究概要
+  
+  &nbsp;
+
+  
+  
+    画像認識
+  
+  &nbsp;
+
+  
+  
+    異常検知
+  
+  &nbsp;
+
+  
+  
+    因果推論
+  
+
+正常な線虫の胚がどのように細胞分裂が進むかを顕微鏡で観察した「正常データ」と、線虫の1遺伝子の機能を著しく低下させた線虫の胚を撮影した「異常データ」で、どのような違いがあるかを計算機で自動的に検知し、定量的に比較することは、遺伝子の機能を推定する上で重要です。そこで、異常検知に関して、以下の2種類のアプローチに取り組んでいます。
+1つめのアプローチは、深層学習の技術を用いた異常検知の研究です。異常データのすべてのバリエーションを把握し教師あり学習することは難しいため、正常データを AutoEncoder などニューラルネットワークのモデルで教師なし学習するアプローチが一般的です。正常データを学習したモデルに異常データを与え、再現できない部分を異常部位として検出します。しかし、AutoEncoder は、汎化性能が高すぎる性質があり、生物画像の異常検知に用いると、異常データも再現してしまい異常が検出できない問題があります。そのため、AutoEncoderの派生モデルであるMenAEの利用をはじめ、画像中の着目したい部分に注目したり、細胞の形状の異常や時間の異常を区別するモデルの構築に取り組んでいます。
+2つめは、確率モデルの技術である隠れマルコフモデル（HMM）などを使用した異常検知の研究です。音声認識で用いられてきた技法です。時系列データをモデルに与え時系列データのパターンを認識し、異常検知をするために、HDP-HSMMと呼ばれるモデルの応用を試みています。こちらでは画像を直接与えるよりも、高い精度で異常検知することを目指します。">
+<meta name="author" content="map[email:yukako@fc.ritsumei.ac.jp name:計算生物学研究室]">
+<link rel="canonical" href="https://tohsato-lab.github.io/research/anomaly/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f2ecede7f3aa44e5818269487b9875ee8cfdd1f408c7ae6ac36658aa3dd4c3e4.css" integrity="sha256-8uzt5/OqROWBgmlIe5h17oz90fQIx65qw2ZYqj3Uw&#43;Q=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://tohsato-lab.github.io/img/lab-logo1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tohsato-lab.github.io/img/lab-logo1.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tohsato-lab.github.io/img/lab-logo1.png">
+<link rel="apple-touch-icon" href="https://tohsato-lab.github.io/img/lab-logo1.png">
+<link rel="mask-icon" href="https://tohsato-lab.github.io/img/lab-logo1.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://tohsato-lab.github.io/research/anomaly/index.xml" title="rss">
+<link rel="alternate" hreflang="ja" href="https://tohsato-lab.github.io/research/anomaly/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="stylesheet" href="/css/lab-custom.css">
+<meta property="og:url" content="https://tohsato-lab.github.io/research/anomaly/">
+  <meta property="og:site_name" content="計算生物学研究室">
+  <meta property="og:title" content="異常検知">
+  <meta property="og:description" content=" 研究テーマ： 研究概要   画像認識   異常検知   因果推論 正常な線虫の胚がどのように細胞分裂が進むかを顕微鏡で観察した「正常データ」と、線虫の1遺伝子の機能を著しく低下させた線虫の胚を撮影した「異常データ」で、どのような違いがあるかを計算機で自動的に検知し、定量的に比較することは、遺伝子の機能を推定する上で重要です。そこで、異常検知に関して、以下の2種類のアプローチに取り組んでいます。
+1つめのアプローチは、深層学習の技術を用いた異常検知の研究です。異常データのすべてのバリエーションを把握し教師あり学習することは難しいため、正常データを AutoEncoder などニューラルネットワークのモデルで教師なし学習するアプローチが一般的です。正常データを学習したモデルに異常データを与え、再現できない部分を異常部位として検出します。しかし、AutoEncoder は、汎化性能が高すぎる性質があり、生物画像の異常検知に用いると、異常データも再現してしまい異常が検出できない問題があります。そのため、AutoEncoderの派生モデルであるMenAEの利用をはじめ、画像中の着目したい部分に注目したり、細胞の形状の異常や時間の異常を区別するモデルの構築に取り組んでいます。
+2つめは、確率モデルの技術である隠れマルコフモデル（HMM）などを使用した異常検知の研究です。音声認識で用いられてきた技法です。時系列データをモデルに与え時系列データのパターンを認識し、異常検知をするために、HDP-HSMMと呼ばれるモデルの応用を試みています。こちらでは画像を直接与えるよりも、高い精度で異常検知することを目指します。">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="異常検知">
+<meta name="twitter:description" content="">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "研究概要",
+      "item": "https://tohsato-lab.github.io/research/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "異常検知",
+      "item": "https://tohsato-lab.github.io/research/anomaly/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://tohsato-lab.github.io/" accesskey="h" title="計算生物学研究室 (Alt + H)">
+                <img src="https://tohsato-lab.github.io/img/lab-logo.png" alt="" aria-label="logo"
+                    height="32">計算生物学研究室</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://tohsato-lab.github.io/" title="研究室の紹介">
+                    <span>研究室の紹介</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tohsato-lab.github.io/research/" title="研究概要">
+                    <span>研究概要</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tohsato-lab.github.io/members/" title="メンバ">
+                    <span>メンバ</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tohsato-lab.github.io/event/" title="イベント">
+                    <span>イベント</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tohsato-lab.github.io/publications/" title="研究成果">
+                    <span>研究成果</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tohsato-lab.github.io/access/" title="アクセス">
+                    <span>アクセス</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://tohsato-lab.github.io/link/" title="関連リンク">
+                    <span>関連リンク</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+<main class="main">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">異常検知</h1>
+    </header>
+
+    <div class="post-content">
+      
+
+
+
+<p class="research-nav">
+  研究テーマ：
+
+  
+  
+    <a href="/research/">研究概要</a>
+  
+  &nbsp;
+
+  
+  
+    <a href="/research/segmentation/">画像認識</a>
+  
+  &nbsp;
+
+  
+  
+    <a href="/research/anomaly/">異常検知</a>
+  
+  &nbsp;
+
+  
+  
+    <a href="/research/causality/">因果推論</a>
+  
+</p>
+<p>正常な線虫の胚がどのように細胞分裂が進むかを顕微鏡で観察した「正常データ」と、線虫の1遺伝子の機能を著しく低下させた線虫の胚を撮影した「異常データ」で、どのような違いがあるかを計算機で自動的に検知し、定量的に比較することは、遺伝子の機能を推定する上で重要です。そこで、異常検知に関して、以下の2種類のアプローチに取り組んでいます。</p>
+<p>1つめのアプローチは、深層学習の技術を用いた異常検知の研究です。異常データのすべてのバリエーションを把握し教師あり学習することは難しいため、正常データを AutoEncoder などニューラルネットワークのモデルで教師なし学習するアプローチが一般的です。正常データを学習したモデルに異常データを与え、再現できない部分を異常部位として検出します。しかし、AutoEncoder は、汎化性能が高すぎる性質があり、生物画像の異常検知に用いると、異常データも再現してしまい異常が検出できない問題があります。そのため、AutoEncoderの派生モデルであるMenAEの利用をはじめ、画像中の着目したい部分に注目したり、細胞の形状の異常や時間の異常を区別するモデルの構築に取り組んでいます。</p>
+<p>2つめは、確率モデルの技術である隠れマルコフモデル（HMM）などを使用した異常検知の研究です。音声認識で用いられてきた技法です。時系列データをモデルに与え時系列データのパターンを認識し、異常検知をするために、HDP-HSMMと呼ばれるモデルの応用を試みています。こちらでは画像を直接与えるよりも、高い精度で異常検知することを目指します。</p>
+
+    </div>
+  </article>
+</main>
+
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://tohsato-lab.github.io/">計算生物学研究室</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
