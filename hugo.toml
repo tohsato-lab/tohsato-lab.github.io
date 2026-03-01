@@ -4,6 +4,7 @@ theme = 'PaperMod'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
 paginate = 10
+publishDir = "docs"
 
 [outputs]
   home = ["HTML", "RSS"]
