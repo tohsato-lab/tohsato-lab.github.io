@@ -1,0 +1,17 @@
+/* =========================================================
+   本文の左端位置をヘッダーと完全に揃える
+   ========================================================= */
+
+/* デスクトップ：PaperMod ヘッダーと同じ左右パディング (ph4 ≒ 32px) */
+.container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+/* モバイル：ヘッダーと同じ左右パディング (ph3 ≒ 16px) */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}

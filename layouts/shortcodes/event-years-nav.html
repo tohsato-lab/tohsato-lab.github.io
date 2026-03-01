@@ -1,0 +1,41 @@
+{{/* 
+  event-years-nav.html
+  年別イベントページへのリンク一覧
+  パラメータ:
+    current … カンマ区切りの複数年 (例: "2026,2025")
+*/}}
+
+{{ $all := site.Data.events.events }}
+
+{{ if $all }}
+  {{/* 年一覧を作成 */}}
+  {{ $sorted := sort $all "date" "desc" }}
+  {{ $years := slice }}
+  {{ range $sorted }}
+    {{ $y := (.date | time.Format "2006") }}
+    {{ if not (in $years $y) }}
+      {{ $years = $years | append $y }}
+    {{ end }}
+  {{ end }}
+
+  {{/* current="2026,2025" を ["2026" "2025"] に変換 */}}
+  {{ $currentParam := .Get "current" | default "" }}
+  {{ $currentList := slice }}
+  {{ if ne $currentParam "" }}
+    {{ range (split $currentParam ",") }}
+      {{ $currentList = $currentList | append (trim . " ") }}
+    {{ end }}
+  {{ end }}
+
+  <p class="event-years-nav">
+    年別の記録：
+    {{ range $i, $y := $years }}
+      {{ if gt $i 0 }}&nbsp;{{ end }}
+      {{ if in $currentList $y }}
+        <span class="event-year-current">{{ $y }}年</span>
+      {{ else }}
+        <a href="/event/{{ $y }}/">{{ $y }}年</a>
+      {{ end }}
+    {{ end }}
+  </p>
+{{ end }}

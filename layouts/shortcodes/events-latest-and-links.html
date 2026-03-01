@@ -1,0 +1,95 @@
+{{/*
+  events-latest-and-links.html
+  /event/ ページで：
+    - 直近2年分のイベント一覧を表示
+    - それ以前の年へのリンクを出す
+*/}}
+
+{{ $all := site.Data.events.events }}
+
+{{ if $all }}
+  {{/* 日付の新しい順にソート */}}
+  {{ $sorted := sort $all "date" "desc" }}
+
+  {{/* 年一覧（重複なし）を作る */}}
+  {{ $years := slice }}
+  {{ range $sorted }}
+    {{ $y := (.date | time.Format "2006") }}
+    {{ if not (in $years $y) }}
+      {{ $years = $years | append $y }}
+    {{ end }}
+  {{ end }}
+
+  {{/* 直近何年分を本文として表示するか（ここでは2年） */}}
+  {{ $recentN := 2 }}
+  {{ if lt (len $years) $recentN }}
+    {{ $recentN = len $years }}
+  {{ end }}
+  {{ $recentYears := first $recentN $years }}
+
+  {{/* ▼ 直近2年分のイベント本文を表示 */}}
+  {{ range $recentYears }}
+    {{ $year := . }}
+
+    <section class="events-list latest-year">
+      <h2 class="event-year">{{ $year }}年</h2>
+      <ul class="event-year-list">
+        {{ range $sorted }}
+          {{ $y := (.date | time.Format "2006") }}
+          {{ if eq $y $year }}
+            <li class="event-item">
+              <div class="event-meta">
+                <span class="event-date">
+                  {{ if .end }}
+                    {{ .date | time.Format "2006-01-02" }}〜{{ .end | time.Format "2006-01-02" }}
+                  {{ else }}
+                    {{ .date | time.Format "2006-01-02" }}
+                  {{ end }}：
+                </span>
+                <strong class="event-title">{{ .title }}</strong>
+
+                {{ with .text }}
+                  <div class="event-text">{{ . }}</div>
+                {{ end }}
+
+                {{ if .doi }}
+                  <div class="event-doi">
+                    {{ printf "[DOI: %s](https://doi.org/%s)" .doi .doi | markdownify }}
+                  </div>
+                {{ end }}
+
+                {{ if .url }}
+                  <div class="event-url">
+                    {{ printf "[%s](%s)" .url .url | markdownify }}
+                  </div>
+                {{ end }}
+
+                {{ $ev := . }}                {{/* このイベント1件分を退避 */}}
+                {{ if $ev.images }}
+                  <div class="event-images">
+                    {{ range $ev.images }}
+                      <div class="event-image-wrapper">
+                        <img src="/{{ . }}" alt="{{ $ev.title }}" class="event-thumb">
+                      </div>
+                    {{ end }}
+                  </div>
+
+                {{ else if $ev.image }}
+                  <div class="event-images">
+                    <div class="event-image-wrapper">
+                      <img src="/{{ $ev.image }}" alt="{{ $ev.title }}" class="event-thumb">
+                    </div>
+                  </div>
+                {{ end }}
+              </div>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+
+
+{{ else }}
+  <p>現在イベントはありません。</p>
+{{ end }}

@@ -1,0 +1,524 @@
+[[pubs]]
+year    = 2026
+pubdate = 2026-01-01
+type    = "Journal"
+authors = "Juan Liu, So Fujiyoshi, Fumito Maruyama, Yukako Tohsato, Shinichi Koyama, Xavier Rodó, Takamune Shimada, Makoto Seki, Akihiro Sakatoku, Shogo Nakamura, Daisuke Tanaka"
+title   = "Suburban-urban differences in coarse and fine atmospheric particulate matter with key chemical compositions influencing bacterial communities in Toyama and Yokohama, Japan"
+journal = "Journal of Hazardous Materials"
+volume  = "501"
+pages   = "13 pages"
+doi     = "10.1016/j.jhazmat.2025.140678"
+
+[[pubs]]
+year = 2026
+pubdate = 2026-09-12
+type = "Conference"
+authors = "Kazuki Shimizu, Yukako Tohsato"
+title = "SAPAG: Self-attention parts guidance with latent diffusion models for anomaly detection in Caenorhabditis elegans images"
+journal = "Proceedings of the 32nd International Conference on Neural Information Processing (ICONIP 2025)"
+pages = "52–66"
+
+
+[[pubs]]
+year = 2025
+pubdate = 2025-11-01
+type = "Encyclopedia"
+authors = "遠里 由佳子"
+title = "理論生物学事典 8-2 タンパク質・機能・マクロデータ：12 フェノーム"
+journal = "理論生物学事典（巌佐 庸、大槻 久、佐竹 暁子、望月 敦史 編）"
+pages = "414–415 (564 pages)"
+publisher = "新倉書店"
+isbn = "978-4-254-17203-4"
+
+[[pubs]]
+year = 2025
+pubdate = 2025-03-28
+type = "BookChapter"
+authors = "遠里 由佳子, 京田 耕司, 大浪 修一"
+title = "型で実践する生物画像解析 論文投稿編２：画像データリポジトリとデータベース ーそのしくみと活用法"
+journal = "（三浦 耕太 & 塚田 祐基 編）"
+pages = "284–291 (351 pages)"
+publisher = "羊土社"
+isbn = "978-4758122801"
+
+[[pubs]]
+year = 2025
+pubdate = 2025-03-01
+type = "Journal/Preprint"
+authors = "Fumito Maruyama, Ishara Perera, Carolina Medel, Leonardo Guzman, Shinji Nakaoka, Felipe Tucca, Alexander Jaramillo, Yukako Tohsato, Milko A. Jorquera, So Fujiyoshi, Daiki Kumakura, Kyoko Yarimizu, Oscar Espinoza, Jacquelinne Acuña, Han Soo Lee"
+title = "Causal Interactions Among Phytoplankton and Pseudo-Nitzschia Species Revealed by Empirical Dynamic Modelling"
+journal = "Science of the Total Environment"
+volume = "211"
+pages = "39 pages"
+url = "https://ssrn.com/abstract=4916701"
+
+[[pubs]]
+year = 2024
+pubdate = 2024-10-31
+type = "Journal"
+authors = "Koji Kyoda, Hiroya Itoga, Yuki Yamagata, Emi Fujisawa, Fangfang Wang, Miguel Miranda-Miranda, Haruna Yamamoto, Yasue Nakano, Yukako Tohsato, Shuichi Onami"
+title = "SSBD: an ecosystem for enhanced sharing and reuse of bioimaging data"
+journal = "Nucleic Acids Research"
+volume = "53(6)"
+pages = "D1716–1723"
+doi = "10.1093/nar/gkae860"
+
+[[pubs]]
+year = 2024
+pubdate = 2024-05-01
+type = "Journal"
+authors = "Yuki Shimojo, Kazuki Suehara, Tatsumi Hirata, Yukako Tohsato"
+title = "Segmentation of mouse brain slices with unsupervised domain adaptation considering cross-sectional locations"
+journal = "IPSJ Transactions on Bioinformatics"
+volume = "17"
+pages = "33–39"
+doi = "10.2197/ipsjtbio.17.33"
+
+[[pubs]]
+year = 2023
+pubdate = 2023-12-19
+type = "Conference"
+authors = "Hiroto Kawabata, Yuki Shimojo, Tatsumi Hirata, Yukako Tohsato"
+title = "Large-scale image processing and three-dimensional reconstruction of mouse brains with neurogenic-tagged neurons"
+journal = "Proceedings of the 13th International Conference on Biomedical Engineering and Technology (ICBET 2023), Tokyo, Japan"
+pages = "1–7"
+doi = "10.1145/3620679.3620680"
+
+[[pubs]]
+year = 2023
+pubdate = 2023-04-03
+type = "Journal"
+authors = "Takashi Ohyama, Yukako Tohsato*"
+title = "Metabolic network analysis by time-series causal inference using the multi-dimensional space of prediction errors"
+journal = "IPSJ Transactions on Bioinformatics"
+volume = "16"
+pages = "13–19"
+doi = "10.2197/ipsjtbio.16.13"
+
+[[pubs]]
+year = 2023
+pubdate = 2023-02-17
+type = "Journal"
+authors = "Takeyuki Tamura*, Ai Muto-Fujita, Yukako Tohsato, Tomoyuki Kosaka"
+title = "Gene deletion algorithms for minimum reaction network design by mixed-integer linear programming for metabolite production in constraint-based models: gDel_minRN"
+journal = "Journal of Computational Biology"
+volume = "30(5)"
+pages = "553–568"
+doi = "10.1089/cmb.2022.0352"
+
+[[pubs]]
+year = 2022
+pubdate = 2022-09-09
+type = "Conference"
+authors = "Hiroaki Nozaki, Yukako Tohsato"
+title = "Unsupervised domain adaptation using temporal association for segmentation and its application to C. elegans time-lapse images"
+journal = "Proceedings of the 31st International Conference on Artificial Neural Networks (ICANN 2022), Lecture Notes in Computer Science"
+volume = "13531"
+pages = "469–481"
+
+[[pubs]]
+year = 2022
+pubdate = 2022-09-09
+type = "Conference"
+authors = "Eisuke Ito, Takaya Ueda, Ryo Takano, Yukako Tohsato, Koji Kyoda, Shuichi Onami, Ikuko Nishikawa"
+title = "Phenotype anomaly detection for biological dynamics data using a deep generative model"
+journal = "Proceedings of the 31st International Conference on Artificial Neural Networks (ICANN 2022), Lecture Notes in Computer Science"
+volume = "13530"
+pages = "432–444"
+
+[[pubs]]
+year = 2021
+pubdate = 2021-05-26
+type = "Journal"
+authors = "Tatsumi Hirata, Yukako Tohsato, Hiroya Itoga, Go Shioi, Hiroshi Kiyonari, Sanae Oka, Toshihiro Fujimori, Shuichi Onami*"
+title = "NeuroGT: a brain atlas of neurogenic tagging CreER drivers for birthdate-based classification and manipulation of mouse neurons"
+journal = "Cell Reports Methods"
+volume = "1(3)"
+pages = "100012"
+doi = "10.1016/j.crmeth.2021.100012"
+
+[[pubs]]
+year = 2020
+pubdate = 2020-01-01
+type = "Review"
+authors = "京田 耕司，ホー ケネス，糸賀 裕弥, 遠里 由佳子，大浪 修一"
+title = "生命現象の時空間動態情報の可視化"
+journal = "可視化情報学会誌 特集号 生物学のデータと可視化"
+volume = "40(156)"
+pages = "25–28"
+issn = "0916-4731"
+
+[[pubs]]
+year = 2020
+pubdate = 2020-09-18
+type = "Conference"
+authors = "Takaya Ueda, Yukako Tohsato, Ikuko Nishikawa"
+title = "Temporal anomaly detection by deep generative models"
+journal = "Proceedings of the 29th International Conference on Artificial Neural Networks (ICANN 2020), Lecture Notes in Computer Science"
+volume = "12396"
+pages = "553–564"
+
+[[pubs]]
+year = 2020
+pubdate = 2020-08-12
+type = "Journal"
+authors = "Koji Kyoda, Kenneth H. L. Ho, Yukako Tohsato, Hiroya Itoga, Shuichi Onami*"
+title = "BD5: An open HDF5-based data format to represent quantitative biological dynamics data"
+journal = "PLOS ONE"
+volume = "15(8)"
+pages = "e0237468"
+doi = "10.1371/journal.pone.0237468"
+
+[[pubs]]
+year = 2020
+pubdate = 2020-05-18
+type = "Conference"
+authors = "Yukako Tohsato, Tadahiro Taniguchi, Hirotada Mori, Masahiro Ito"
+title = "Analyzing phenotype microarray data for Escherichia coli using an infinite relational model"
+journal = "Proceedings of the 2021 IEEE 9th International Conference on Bioinformatics and Computational Biology (ICBCB 2021)"
+pages = "125–129"
+
+[[pubs]]
+year = 2020
+pubdate = 2020-05-18
+type = "Conference"
+authors = "Takumi Oibayashi, Takaya Ueda, Yuki Kimura, Yukako Tohsato, Ikuko Nishikawa"
+title = "Phenotype anomaly detection in early C. elegans embryos by variational auto-encoder"
+journal = "Proceedings of the 2020 IEEE 8th International Conference on Bioinformatics and Computational Biology (ICBCB 2020), Taiyuan, China"
+pages = "1–5"
+
+[[pubs]]
+year = 2019
+pubdate = 2019-07-22
+type = "Conference"
+authors = "Takaya Ueda, Masataka Seo, Yukako Tohsato, Ikuko Nishikawa"
+title = "Analysis of time series anomalies using causal InfoGAN and its application to biological data"
+journal = "Proceedings of the 15th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD 2019), Springer, Kunming, China"
+volume = "1074"
+pages = "609–617"
+
+[[pubs]]
+year = 2019
+pubdate = 2019-07-22
+type = "Conference"
+authors = "Yuki Kimura, Takaya Ueda, Masataka Seo, Ikuko Nishikawa"
+title = "Characterizing phenotype abnormality by variational auto encoder"
+journal = "Proceedings of the 15th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD 2019), Springer, Kunming, China"
+volume = "1074"
+pages = "618–626"
+
+
+[[pubs]]
+year = 2017
+pubdate = 2017-05-01
+type = "Journal"
+authors = "Yang Sihai, Xianhua Han, Yukako Tohsato, Koji Kyoda, Shuichi Onami, Ikuko Nishikawa, Yenwei Chen*"
+title = "Phenotype analysis method for identification of gene functions involved in asymmetric division of Caenorhabditis elegans"
+journal = "Journal of Computational Biology"
+volume = "24(5)"
+pages = "436–446"
+doi = "10.1089/cmb.2016.0210"
+
+[[pubs]]
+year = 2016
+pubdate = 2016-11-03
+type = "Journal"
+authors = "Xian-Hua Han, Yukako Tohsato, Koji Kyoda, Shuichi Onami, Ikuko Nishikawa, Yen-Wei Chen*"
+title = "Nuclear detection in 4D microscope images of developing embryo using enhanced probability map of top-ranked intensity-ordered descriptors"
+journal = "IPSJ Transactions on Computer Vision and Application"
+volume = "8"
+pages = "8"
+doi = "10.1186/s41074-016-0010-3"
+
+[[pubs]]
+year = 2016
+pubdate = 2016-06-19
+type = "Journal"
+authors = "Yukako Tohsato, Kenneth H.L. Ho, Koji Kyoda, Shuichi Onami*"
+title = "SSBD: a database of quantitative data of spatiotemporal dynamics of biological phenomena"
+journal = "Bioinformatics"
+volume = "32(22)"
+pages = "3471–3479"
+doi = "10.1093/bioinformatics/btw417"
+
+[[pubs]]
+year = 2015
+pubdate = 2015-11-12
+type = "Journal"
+authors = "Takayoshi Tomono, Hisao Kojima, Satoshi Fukuchi, Yukako Tohsato, Masahiro Ito*"
+title = "Investigation of glycan evolution based on a comprehensive analysis of glycosyltransferases using phylogenetic profiling"
+journal = "Biophysics and Physicobiology"
+volume = "12"
+pages = "57–68"
+doi = "10.2142/biophysico.12.0_57"
+
+[[pubs]]
+year = 2015
+pubdate = 2015-11-06
+type = "Conference"
+authors = "Xian-Hua Han, Yukako Tohsato, Koji Kyoda, Shuichi Onami, Ikuko Nishikawa, Yen-Wei Chen*"
+title = "Nuclear detection in 4D microscope images using enhanced probability map of top-ranked intensity-ordered descriptors"
+journal = "Proceedings of the 3rd Asian Conference on Pattern Recognition (ACPR 2015), Kuala Lumpur, Malaysia"
+pages = "554–558"
+
+[[pubs]]
+year = 2015
+pubdate = 2015-04-01
+type = "Journal"
+authors = "Koji Kyoda, Yukako Tohsato, Kenneth H. L. Ho, Shuichi Onami*"
+title = "Biological Dynamics Markup Language (BDML): an open format for representing quantitative biological dynamics data"
+journal = "Bioinformatics"
+volume = "31(7)"
+pages = "1044–1052"
+doi = "10.1093/bioinformatics/btu767"
+
+[[pubs]]
+year = 2015
+pubdate = 2015-01-28
+type = "Journal"
+authors = "Yuta Otsuka, Ai Muto, Rikiya Takeuchi, Chihiro Okada, Motokazu Ishikawa, Kouichiro Nakamura, Natsuko Yamamoto, Hitomi Dose, Kenji Nakahigashi, Shigeki Tanishima, Wataru Nomura, Sivasundaram Suharnan, Toru Nakayashiki, Walid Aref, Michael Gribskov, Yukako Tohsato, Barry Bochner, Daisuke Kihara, Tyrrell Conway, Barry Wanner, Hirotada Mori*"
+title = "GenoBase: Comprehensive resource database of Escherichia coli K-12"
+journal = "Nucleic Acids Research"
+volume = "43(Database issue)"
+pages = "D606–D617"
+doi = "10.1093/nar/gku1080"
+
+[[pubs]]
+year = 2014
+pubdate = 2014-11-22
+type = "BookChapter"
+authors = "遠里 由佳子，京田 耕司，大浪 修一"
+title = "バイオ画像解析 手とり足とりガイド 第1章5節 バイオイメージと定量データのデータベース"
+journal = "（小林 徹也 & 青木 一洋 編）"
+pages = "53–61"
+publisher = "羊土社"
+
+[[pubs]]
+year = 2013
+pubdate = 2013-10-01
+type = "Review"
+authors = "遠里 由佳子，京田 耕司，ホー ケネス，大浪 修一"
+title = "生命動態システム科学のデータベースの統合化"
+journal = "日本バイオインフォマティクス学会ニュースレター"
+volume = "27"
+pages = "5–6"
+
+
+[[pubs]]
+year = 2013
+pubdate = 2013-04-30
+type = "Journal"
+authors = "Hisao Kojima, Yukako Tohsato, Kazuya Kobayama, Saki Itonori, Masahiro Ito*"
+title = "Biochemical studies on sphingolipids of Artemia franciscana: complex neutral glycosphingolipids"
+journal = "Glycoconjugate Journal"
+volume = "30(3)"
+pages = "257–268"
+doi = "10.1007/s10719-012-9436-8"
+
+[[pubs]]
+year = 2013
+pubdate = 2013-04-10
+type = "Journal"
+authors = "Yukako Tohsato*, Kunihiko Ikuta, Akitaka Shionoya, Yusaku Mazaki, Masahiro Ito"
+title = "Parameter optimization and sensitivity analysis for large kinetic models using a real-coded genetic algorithm"
+journal = "Genes (Genome Informatics 2012 Supplement)"
+volume = "518(1)"
+pages = "84–90"
+doi = "10.1016/j.gene.2012.11.080"
+
+[[pubs]]
+year = 2013
+pubdate = 2013-02-01
+type = "Journal"
+authors = "Yoshihiko Matsuta, Masahiro Ito, Yukako Tohsato*, ECOH"
+title = "An Enzyme Commission number predictor using mutual information and a support vector machine"
+journal = "Bioinformatics"
+volume = "29(3)"
+pages = "365–372"
+doi = "10.1093/bioinformatics/bts700"
+
+[[pubs]]
+year = 2012
+pubdate = 2012-12-14
+type = "Conference"
+authors = "Yukako Tohsato, Kunihiko Ikuta, Akitaka Shionoya, Yusaku Mazaki, Masahiro Ito"
+title = "Parameter optimization and sensitivity analysis for large kinetic models using a real-coded genetic algorithm"
+journal = "Proceedings of Genome Informatics (GIW 2012), Tainan, Taiwan"
+
+[[pubs]]
+year = 2012
+pubdate = 2012-08-22
+type = "Journal"
+authors = "Masahiro Ito*, Yukako Tohsato, Hitoshi Sugisawa, Shohei Kohara, Satoshi Fukuchi, Ikuko Nishikawa, Ken Nishikawa"
+title = "Intrinsically disordered proteins in human mitochondria"
+journal = "Genes to Cells"
+volume = "17(10)"
+pages = "817–825"
+doi = "10.1111/gtc.12000"
+
+[[pubs]]
+year = 2012
+pubdate = 2012-08-03
+type = "Journal"
+authors = "Yukako Tohsato*, Kunihiko Ikuta, Akitaka Shionoya, Yusaku Mazaki, Masahiro Ito"
+title = "Comparative proteomic analysis reveals differentially expressed proteins in Caenorhabditis elegans pgl-1 mutants grown at 20°C and 25°C"
+journal = "Journal of Proteomics"
+volume = "75(15)"
+pages = "4792–4801"
+doi = "10.1016/j.jprot.2012.04.038"
+
+[[pubs]]
+year = 2010
+pubdate = 2010-12-18
+type = "Conference"
+authors = "Yukako Tohsato, Tomoya Baba, Yusaku Mazaki, Masahiro Ito, Barry L. Wanner, Hirotada Mori"
+title = "Environmental dependency of gene knockouts on phenotype microarray analysis in Escherichia coli"
+journal = "Proceedings of Genome Informatics (GIW 2010), China"
+pages = "1–17"
+
+[[pubs]]
+year = 2011
+type = "BookChapter"
+authors = "Yukako Tohsato, Natsuko Yamamoto, Toru Nakayshiki, Rikiya Takeuchi, Barry L. Wanner, Hirotada Mori"
+title = "Protein Function Prediction for Omics Era: 15. Towards elucidation of the Escherichia coli K-12 unknowneome"
+journal = "Protein Function Prediction for Omics Era (Daisuke Kihara, Ed.)"
+pages = "289–306"
+publisher = "Springer"
+
+[[pubs]]
+year = 2010
+pubdate = 2010-09-10
+type = "Journal"
+authors = "Yukako Tohsato*, Tomoya Baba, Yusaku Mazaki, Masahiro Ito, Barry L. Wanner, Hirotada Mori"
+title = "Environmental dependency of gene knockouts on phenotype microarray analysis in Escherichia coli"
+journal = "Journal Bioinformatics and Computational Biology (Genome Informatics 2010)"
+volume = "8"
+pages = "1–17"
+
+
+[[pubs]]
+year = 2009
+pubdate = 2009-03-24
+type = "Journal"
+authors = "Yukako Tohsato*, Yu Nishimura"
+title = "Reaction similarities focusing substructure changes of chemical compounds and metabolic pathway alignments"
+journal = "IPSJ Transactions on Bioinformatics"
+volume = "2"
+pages = "15–24"
+
+[[pubs]]
+year = 2009
+pubdate = 2009-03-01
+type = "Review"
+authors = "遠里 由佳子"
+title = "代謝反応メカニズムをセルイラストレータで再現しよう"
+journal = "Infomatic World No.15"
+url = "http://www.wako-chem.co.jp/siyaku/journal/infomatic/pdf/info15.pdf"
+
+
+[[pubs]]
+year = 2007
+pubdate = 2007-07-09
+type = "Journal"
+authors = "Yukako Tohsato*, Yu Nishimura"
+title = "Metabolic pathway alignment based on similarity between chemical structures"
+journal = "IPSJ Transactions on Bioinformatics"
+volume = "48(SIG17 (TBIO3))"
+pages = "9–18"
+
+[[pubs]]
+year = 2006
+pubdate = 2006-11-01
+type = "Journal"
+authors = "Yukako Tohsato*, Kanami Monobe, Kenji Suzuki, Toshiya Hayano, Ichiro Kawasaki, Masahiro Ito"
+title = "A method for species comparison of metabolic networks using reaction profile"
+journal = "IPSJ Transactions on Bioinformatics"
+volume = "47(SIG17 (TBIO1))"
+pages = "42–47"
+
+[[pubs]]
+year = 2005
+pubdate = 2005-06-01
+type = "Journal"
+authors = "Takahiro Kosaka, Yukako Tohsato, Susumu Date, Hideo Matsuda, Shinji Shimojo*"
+title = "An OGSA-based integration of life scientific resources for drug discovery"
+journal = "Methods of Information in Medicine"
+volume = "44(2)"
+pages = "257–261"
+
+[[pubs]]
+year = 2005
+pubdate = 2005-02-01
+type = "Journal"
+authors = "Yukako Tohsato, Takahiro Kosaka, Susumu Date, Shinji Shimojo, Hideo Matsuda*"
+title = "Heterogeneous database federation using grid technology for drug discovery process"
+journal = "Lecture Notes in Bioinformatics"
+volume = "3370"
+pages = "43–52"
+
+[[pubs]]
+year = 2004
+pubdate = 2004-07-22
+type = "Conference"
+authors = "Masato Kitajima, Yukako Tohsato, Takahiro Kosaka, Kazuto Yamazaki, Reiji Teramoto, Susumu Date, Shinji Shimojo, Hideo Matsuda"
+title = "Development of a database system for drug discovery by employing grid technology"
+journal = "Proceedings of the 7th International Conference on High Performance Computing and Grid in Asia Pacific Region (HPCAsia 2004), IEEE CS Press, Ohmiya"
+pages = "365–369"
+
+[[pubs]]
+year = 2004
+pubdate = 2004-06-04
+type = "Conference"
+authors = "Yukako Tohsato, Takahiro Kosaka, Susumu Date, Shinji Shimojo, Hideo Matsuda"
+title = "Heterogeneous database federation using grid technology for drug discovery process"
+journal = "Proceedings of the First International Workshop on Life Science Grid (LSGRID 2004), Kanazawa"
+pages = "53–62"
+
+[[pubs]]
+year = 2003
+pubdate = 2003-07-07
+type = "Journal"
+authors = "Yukako Tohsato*, Hideo Matsuda, Akihiro Hashimoto"
+title = "An application of a pathway alignment method to the analysis of metabolic pathways"
+journal = "Research Communications in Biochemistry, Cell and Molecular Biology"
+volume = "5(3 & 4)"
+pages = "179–191"
+
+[[pubs]]
+year = 2003
+pubdate = 2003-03-28
+type = "Conference"
+authors = "Shoko Miyake, Yukako Tohsato, Yoichi Takenaka, Hideo Matsuda"
+title = "A clustering method for comparative analysis between genomes and pathways"
+journal = "Proceedings of the 8th International Conference on Database Systems for Advanced Applications (DASFAA 2003), Kyoto"
+pages = "327–334"
+
+[[pubs]]
+year = 2001
+pubdate = 2001-12-10
+type = "BookChapter"
+authors = "松田 秀雄, 遠里 由佳子"
+title = "代謝反応パスウェイのアライメントによる類似反応パターンの検出"
+journal = "蛋白質・核酸・酵素"
+volume = "46(16)"
+pages = "2550–2554"
+publisher = "共立出版"
+
+[[pubs]]
+year = 2000
+pubdate = 2000-11-06
+type = "Journal"
+authors = "遠里 由佳子, 松田 秀雄*, 橋本 昭洋"
+title = "パスウェイ解析のための情報量最大化アライメントアルゴリズム"
+journal = "情報処理学会論文誌：数理モデル化と応用"
+volume = "41(SIG7(TOM3))"
+pages = "41–48"
+
+[[pubs]]
+year = 2000
+pubdate = 2000-08-23
+type = "Conference"
+authors = "Yukako Tohsato, Hideo Matsuda, Akihiro Hashimoto"
+title = "A multiple alignment algorithm for metabolic pathway analysis using enzyme hierarchy"
+journal = "Proceedings of the 8th International Conference on Intelligent Systems for Molecular Biology (ISMB 2000), California"
+pages = "376–383"

@@ -1,0 +1,225 @@
+# data/events.toml
+
+[[events]]
+date  = "2026-02-27"
+title = "研究室のホームページをHugoに以降中"
+text  = "WordPressで作っていた研究室のホームページが壊れてしまったので、Hugoに移行中です。"
+
+[[events]]
+date  = "2026-01-05"
+title = "R2次世代生命科学研究会発表"
+text  = "R2次世代生命科学研究会で研究室の学生さん10名が発表しました。M0以上の10名の学生さんが発表しました。お疲れ様でした！"
+image = "img/event/20260105_R2.jpg"
+
+[[events]]
+date  = "2026-01-01"
+title = "Journal of Hazardous Materialsにて論文採択"
+text  = "富山大学の田中先生との共著論文が、Journal of Hazardous Materialsという論文誌に採択されました。気象データ解析に関する内容で、01月01日にオンライン公開されました。時系列データ解析を担当しました。"
+doi   = "10.1016/j.jhazmat.2025.140678"
+
+[[events]]
+date  = "2025-09-03"
+end   = "2025-09-05"
+title = "IIBMP2025で学会発表"
+text  = "名古屋大学豊田講堂で行われた、生命医薬情報連合大会（IIBMP）に5名の大学院生がポスター発表しました。加えてM2の神田くんが若手セレクティッドポスター賞を受賞し、口頭発表を行いました。おめでとう！プログラム委員長やランチョンセミナーの主催を担当し大変忙しい学会でしたが、とても意義のある経験でした。名古屋講堂が良い会場でした。"
+images = ["img/event/20250905_IIBMP2025.jpg", "img/event/20250903_selected_poseter_1.jpg", "img/event/20250903_selected_poseter_2.jpg"]
+
+[[events]]
+date  = "2025-09-20"
+end   = "2025-09-24"
+title = "ICONIP2025で学会発表"
+text  = "沖縄科学技術大学院大学（OIST）で行われた、ICONIPで、修了生の清水くんが口頭発表しました。ICONIPは、アジア太平洋神経ネットワーク学会（APNNS）が主催する、ニューラルネットワークなどの分野の主要国際会議です。6%ぐらいの採択率でした。難関突破！嬉しいです。おめでとう！"
+images = ["img/event/20250912_ICONIP_1.jpg", "img/event/20250912_ICONIP_2.jpg", "img/event/20250912_ICONIP_mag-3.jpg"]
+
+[[events]]
+date  = "2025-07-29"
+end   = "2025-08-01"
+title = "MIRU2025で学会発表"
+text  = "国立京都国際会館で行われた、画像の認識・理解シンポジウム（MIRU）に3名の院生さんが参加しポスター発表しました。熱気のある学会です。京都の夏は暑い！"
+image = "img/event/20250729_MIRU-1.jpg"
+
+[[events]]
+date  = "2025-03-01"
+title = "Marine Pollution Bulletinにて論文採択"
+text  = "広島大学の丸山先生との共著論文が、Marine Pollution Bulletinという論文誌に採択されました。海洋データ解析に関する論文で、12月15日にオンライン公開されました。"
+doi   = "10.1016/j.marpolbul.2024.117432"
+
+[[events]]
+date  = "2024-12-26"
+title = "R2次世代生命科学研究会発表"
+text  = "R2次世代生命科学研究会で研究室の学生さん10名が発表しました。"
+
+[[events]]
+date  = "2024-12-04"
+title = "研究会で口頭発表"
+text  = "早稲田大学で開催された第80回バイオ情報学発表会で、修士1年の神田くんと修士2年の大槻くんが口頭発表を行いました。おつかれさまでした！"
+
+[[events]]
+date  = "2024-10-31"
+title = "Nucleic Acids Researchに論文採択"
+text  = "Nucleic Acids Research という論文誌に、生物画像データベースに関する理研の京田さんとの共著論文が採択されました。10月31日にオンライン公開され、理研からプレスリリースされました。v1は遠里が立ち上げて、今回の論文はv2世代の話です。"
+doi   = "10.1093/nar/gkae860"
+
+[[events]]
+date  = "2024-08-06"
+title = "MIRU2024でポスター発表"
+text  = "熊本で行われた画像の認識・理解シンポジウム（MIRU2024）で大学院1,2年生の学生さんが3件のポスター発表を行いました。"
+images = ["img/event/20240806_MIRU2024_02.jpg", "img/event/20240806_MIRU2024_01.jpg"]
+
+[[events]]
+date  = "2024-08-03"
+title = "オープンキャンパス開催"
+text  = "OICのオープンキャンパスで研究室公開を実地しました。計60名くらいの訪問者があり盛況でした。"
+
+[[events]]
+date  = "2024-05-02"
+title = "実体顕微鏡を購入"
+text  = "研究室の中に3m×3mの実験室を作り実体顕微鏡を入れました。線虫の動画像が撮影できるようになました。"
+images= ["img/event/20240502_microscopy_lab.jpg", "img/event/20240502_microscopy_cele.jpg"]
+
+[[events]]
+date  = "2024-05-01"
+title = "IPSJ Transactions on Bioinformatics 誌に論文採択"
+text  = "TBIOに投稿していた論文が査読の revision を経て採択されました。GIWに口頭発表の枠で投稿していた論文が不採択で、それをTBIOに投げ直し、03月01日の口頭発表を経ての採択です。修士2年生の下條くんおめでとう！そして、お疲れ様でした！05月01日に公開され、マグカップを作成しました。"
+images = ["img/event/20231228_mug-2.png", "img/event/20231228_mug-2.png"]
+
+[[events]]
+date  = "2024-04-01"
+title = "学部が滋賀から大阪に移転"
+text  = "情報理工学部が大阪茨木キャンパスに移転するに伴い、研究室も移動しました。学部丸ごと移転は大事です。新しいキャンパスで心機一転頑張ります！"
+images = ["img/event/20240401_lab_moving_1.jpg", "img/event/20240401_lab_moving_2.jpg", "img/event/20240401_lab_moving_3.jpg"]
+
+[[events]]
+date  = "2024-03-22"
+title = "ラボの移転開始"
+text  = "学部ごとラボが移転することになり、引越しを開始しました。"
+image = "img/event/20240322_lab.jpg"
+
+[[events]]
+date  = "2023-12-28"
+title = "IPSJ Transaction on Bioinformaticsに論文採択"
+text  = 'IPSJ Transaction on Bioinformatics という論文誌に、修士2年の下條くんが書いた論文が採択され、2024年5月に公開されました。おめでとう！'
+doi = "10.2197/ipsjtbio.17.33"
+images = ["img/event/20231228_mug-3.png", "img/event/20231228_mug-2.png"]
+
+[[events]]
+date  = "2023-12-26"
+title = "R2次世代生命科学研究会で口頭発表"
+text  = "研究室の修士課程に行くことが決定している学部生(M0)以上の全員を対象に、理化学研究所で行なっている中間報告会です。今年は本研究室から10名が口頭発表を行いました。"
+image = "img/event/20231226_R2.jpg"
+
+[[events]]
+date  = "2023-11-29"
+title = "バイオ情報学研究会で口頭発表"
+text  = "東京電機大学で開催された第76回BIO合同研究発表会で、修士2年生の下條くんと今村くんが口頭発表を行いました。東京電気大学を訪れたのは初めてでした。大学によって雰囲気が違うものなんだなぁと思った次第。"
+
+[[events]]
+date  = "2023-09-18"
+end   = "2023-09-21"
+title = "GIW 国際学会でポスター発表"
+text  = "シンガポールで開催されたInternational Conference on Genome Informatics (GIW) という国際学会に、M2の下條くんが参加し、ポスター発表を行いました。事務局からなかなか連絡がこず、手間取ったのは今となっては良い思い出？です。"
+image = "img/event/20231121_GIW.jpg"
+
+[[events]]
+date  = "2023-09-07"
+end   = "2023-09-09"
+title = "生命医薬情報連合大会でポスター発表"
+text  = "柏の葉カンファレンスセンターで行われた、生命医薬情報連合大会で、修士課程1年生の清水くん、中島くん、大槻くん、学部4年生の李くんの4名がポスター発表しました。"
+image = "img/event/20230907_IIBMP.jpg"
+
+[[events]]
+date  = "2023-06-16"
+title = "ICBET 2023 国際学会に採択 & 口頭発表"
+text  = "ICBET2023という Biomedical Engineering 系の国際会議で、修士2年生の川端くんが1件の口頭発表を行いました。査読付き国際会議議事録に採択おめでとう！学会は東京で開催されて、日帰りすることになったのが大変でした。お疲れ様でした。追伸：12月19日に本論文がACMで公開され、マグカップを作成しました。"
+doi   = "10.1145/3620679.3620680"
+images= ["img/event/20231219_mug-3.jpg", "img/event/20231219_mug-2.jpg"]
+
+[[events]]
+date  = "2023-04-03"
+title = "IPSJ Transactions on Bioinformaticsに論文採択"
+text  = "第142回MPS・第73回BIO合同研究発表会にて、修士2年生の大山くんが口頭発表した内容が、IPSJ Transactions on Bioinformatics の論文雑誌に採択されました！研究室ができた2019年以降、研究室の学生さんによるはじめての査読付き論文誌への採択です。追伸：06月23日に本論文が発行されたので、マグカップを作成しました。"
+images = ["img/event/20230616_TBIO_mag-1.jpg", "img/event/20230616_TBIO_mag-3.jpg"]
+doi   = "10.2197/ipsjtbio.16.13"
+
+[[events]]
+date  = "2023-03-10"
+title = "国内研究会で口頭発表"
+text  = "第142回MPS・第73回BIO合同研究発表会で、修士2年生の大山くんが口頭発表を行いました。彼は2回目の口頭発表ということもあり、状況を踏まえオンライン参加となりました。"
+image = "img/event/20230310_SIGBIO.jpg"
+
+[[events]]
+date  = "2023-02-17"
+title = "Journal of Computational Biologyに論文採択"
+text  = "京都大学の田村先生との共著論文がJournal of Computational Biologyに採択されました。"
+
+[[events]]
+date = "2022-09-13"
+title = "生命医薬情報連合大会で口頭発表およびポスター発表"
+text  = "IIBMP2022で2件の口頭発表、4件のポスター発表を行いました。研究室に所属している修士課程の学生さん6名全員での発表を達成しました。"
+image = "img/event/20220913_IIBMP.jpg"
+
+[[events]]
+date  = "2022-09-06"
+title = "ICANN 国際学会に採択 & 口頭発表"
+text  = "イギリスのブリストルで行われた国際人工神経回路会議（ICANN2022）で修士2年性の野崎くんが口頭発表を行いました。計算生物学研究室ができて4年目で、はじめての査読付き国際会議議事録への採択です。おめでとう！査読付きの論文に採択された学生さんには、希望に応じつつマグカップを送りました。"
+images = ["img/event/20220909_ICANN.jpg","img/event/20220907_ICANN.jpg","img/event/20220909_ICANN_mag-3.jpg"]
+
+[[events]]
+date  = "2022-08-08"
+title = "サマースクールで研究紹介"
+text  = "サマースクールで研究紹介を実地しました。"
+
+[[events]]
+date  = "2022-08-06"
+title = "オープンキャンパスで研究室公開"
+text  = "オープンキャンパスで研究室公開と研究紹介を実地しました。"
+image = "img/event/20220806_summer_school.jpg"
+
+[[events]]
+date  = "2022-07-25"
+title = "国内シンポジウムでポスター発表"
+text  = "姫路で画像の認識理解シンポジウム (MIRU2022)が開催され、2件のポスター発表を行いました。画像認識系の学会ですごい熱気です。綺麗で広い会場でした。暑かった。"
+image = "img/event/20220726_MIRU_1.jpg"
+
+[[events]]
+date  = "2022-06-29"
+title = "研究会で口頭発表"
+text  = "第138回MPS・第70回BIO合同研究発表会が、沖縄の琉球大学で開催され、修士1年生の大山くんが口頭発表を行いました。"
+images = ["img/event/20220628_TBIO_2.jpg", "img/event/20220628_TBIO_1.jpg"]
+
+[[events]]
+date  = "2021-05-26"
+title = "Cell Reports Methods に論文採択 & プレスリリース"
+text  = "遺伝学研究所の平田たつみ先生との共著論文「NeuroGT: A brain atlas of neurogenic tagging CreER drivers for birthdate-based classification and manipulation of mouse neurons」がCell Reports Methods 誌に採択されました。その共同研究が プレスリリースされました。"
+url   = "https://www.ritsumei.ac.jp/file.jsp?id=498208&f=.pdf"
+
+[[events]]
+date  = "2021-04-01"
+title = "研究室の新体制"
+text  = "新しいフロアで研究室が始動しました。2024年にはOICの移転も予定しますがとりあえず。"
+images = ["img/event/20210602_LAB_01.png", "img/event/20210602_LAB_02.png"]
+
+[[events]]
+date  = "2021-03-24"
+title = "研究室がキャンパス内引っ越し"
+text  = "当初から予定していた研究室の引越しです。学術フロンティアからクリエーションコアへの机などの什器の引越しは業者さんにお願います。ただ、自分たちでも電源とLANの配線が現在どうなっているのかの把握し修正するなどの作業があり、それなりに大変でした。机を追加で購入し20台に増えました。"
+image = "img/event/20210324_lab.jpg"
+
+[[events]]
+date  = "2019-12-27"
+title = "理研で合同発表会"
+text  = "理研での合同発表会（のちに、R2次世代生命科学研究会）に参加しました。毎年M0以上は口頭発表してもらっています。"
+image = "img/event/20191226_R2.jpg"
+
+[[events]]
+date  = "2019-11-09"
+title = "理研オープンキャンパスに参加"
+text  = "理研の神戸研究所のオープンキャンパスを研究室の有志で見学しました。研究室では生き物を撮影した顕微鏡画像データを扱っているので、実際に撮影している現場を知るのは重要だと考えています。この後コロナで参加しづらくなったのが残念です。また機会をみて学生さんには参加してもらいたい。"
+image = "img/event/20191109_RIKEN_OpenCampas.jpg"
+
+[[events]]
+date  = "2019-04-01"
+title = "計算生物学研究室が始動"
+text  = "計算生物学研究室がスタートしました。2022年に研究室の引っ越しを予定しているため、とりあえずコンパクトに環境を整備する方針で、11人分の机を導入しました。"
+#image = "img/event/20190401_lab-01.jpg"
+images = ["img/event/20190401_lab-01.jpg","img/event/20190401_lab-02.jpg"]

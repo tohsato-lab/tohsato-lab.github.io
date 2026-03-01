@@ -1,0 +1,42 @@
+{{/* data/events.toml から最新5件を表示（画像なし・期間対応） */}}
+
+{{ $all := site.Data.events.events }}
+{{ if $all }}
+  {{ $sorted := sort $all "date" "desc" }}
+
+  <section class="latest-event">
+    <h3>最新ニュース（5件）</h3>
+    <ul>
+      {{ range first 5 $sorted }}
+        <li class="event-item">
+          <span class="event-date">
+            {{ if .end }}
+              {{ .date | time.Format "2006-01-02" }}〜{{ .end | time.Format "2006-01-02" }}
+            {{ else }}
+              {{ .date | time.Format "2006-01-02" }}
+            {{ end }}：
+          </span>
+          
+          {{ with .text }}
+            <span class="event-text">{{ . }}</span>
+          {{ end }}
+
+          {{ if .doi }}
+            <span class="event-doi">
+              {{ printf "[DOI: %s](https://doi.org/%s)" .doi .doi | markdownify }}
+            </span>
+          {{ end }}
+
+          {{ if .url }}
+            <span class="event-url">
+              {{ printf "[%s](%s)" .url .url | markdownify }}
+            </span>
+          {{ end }}
+
+        </li>
+      {{ end }}
+    </ul>
+
+    <p><a href="/event/">→ 全ニュースへ</a></p>
+  </section>
+{{ end }}

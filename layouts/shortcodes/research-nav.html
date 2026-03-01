@@ -1,0 +1,43 @@
+{{/* 
+  research-nav.html
+  研究テーマのナビゲーション
+  current:
+    "overview" / "segmentation" / "anomaly" / "causality"
+*/}}
+
+{{ $current := .Get "current" | default "" }}
+
+<p class="research-nav">
+  研究テーマ：
+
+  {{/* 研究概要 */}}
+  {{ if eq $current "overview" }}
+    <span class="research-nav-current">研究概要</span>
+  {{ else }}
+    <a href="/research/">研究概要</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* 画像認識 */}}
+  {{ if eq $current "segmentation" }}
+    <span class="research-nav-current">画像認識</span>
+  {{ else }}
+    <a href="/research/segmentation/">画像認識</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* 異常検知 */}}
+  {{ if eq $current "anomaly" }}
+    <span class="research-nav-current">異常検知</span>
+  {{ else }}
+    <a href="/research/anomaly/">異常検知</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* 因果推論 */}}
+  {{ if eq $current "causality" }}
+    <span class="research-nav-current">因果推論</span>
+  {{ else }}
+    <a href="/research/causality/">因果推論</a>
+  {{ end }}
+</p>

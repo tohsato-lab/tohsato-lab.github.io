@@ -1,0 +1,88 @@
+baseURL = 'https://tohsato-lab.github.io/'
+title = '計算生物学研究室'
+theme = 'PaperMod'
+languageCode = 'ja'
+defaultContentLanguage = 'ja'
+paginate = 10
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowRssButtonInSectionTermList = false
+  ShowToc = false
+  contentTypeName = "posts" # メインカラムを広く・左揃えに近い感じにする
+  mainSections = [] # トップページの記事一覧を非表示にする
+  hideMeta = true
+  hideSummary = true
+  logo = "/img/compbio_logo4_cut.png"
+  logoWidth = 180
+
+  [params.author]
+    name  = "計算生物学研究室"
+    email = "yukako@fc.ritsumei.ac.jp"  # 実際の代表アドレス or 仮のもの
+
+  [params.label]
+    text = "計算生物学研究室"  # メニュー左のテキスト
+    icon = "img/lab-logo.png"              # static からのパス
+    iconHeight = 32                        # ロゴの高さ（px; 24–40くらいで調整）
+
+  [params.assets]
+    favicon = "img/lab-logo1.png"
+    favicon16x16 = "img/lab-logo1.png"
+    favicon32x32 = "img/lab-logo1.png"
+    apple_touch_icon = "img/lab-logo1.png"
+    safari_pinned_tab = "img/lab-logo1.png"
+
+[menu]
+
+  [[menu.main]]
+    name = "研究室の紹介"
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "研究概要"
+    identifier = "research"
+    url = "/research/"
+    weight = 2
+
+  [[menu.main]]
+    name = "メンバ"
+    identifier = "members"
+    url = "/members/"
+    weight = 3
+
+  [[menu.main]]
+    name = "イベント"
+    identifier = "events"
+    url = "/event/"
+    weight = 4
+
+  [[menu.main]]
+    name = "研究成果"
+    identifier = "publications"
+    url = "/publications/"
+    weight = 5
+
+  [[menu.main]]
+    name = "アクセス"
+    identifier = "access"
+    url = "/access/"
+    weight = 6
+
+  [[menu.main]]
+    name = "関連リンク"
+    identifier = "links"
+    url = "/link/"
+    weight = 7
+
+    

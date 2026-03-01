@@ -1,0 +1,84 @@
+{{/*
+  pubs-list.html — 黒丸（●）つきリスト + インデント調整 + イタリックなし版
+*/}}
+
+{{ $group  := .Get "group" | default "journal" }}
+{{ $recent := .Get "recent" | default "false" }}
+
+{{ $all := site.Data.publications.pubs }}
+
+{{ if not $all }}
+  <p>現在、登録されている業績はありません。</p>
+{{ else }}
+
+  {{/* ---- グループ絞り込み ---- */}}
+  {{ $filtered := slice }}
+
+  {{- if eq $group "journal" -}}
+    {{ $filtered = where $all "type" "in" (slice "Journal" "Journal/Preprint" "Preprint") }}
+  {{- else if eq $group "conference" -}}
+    {{ $filtered = where $all "type" "eq" "Conference" }}
+  {{- else if eq $group "book" -}}
+    {{ $filtered = where $all "type" "in" (slice "Book" "BookChapter" "Encyclopedia" "Review" "Magazine") }}
+  {{- else -}}
+    {{ $filtered = $all }}
+  {{- end -}}
+
+  {{/* ---- 過去5年 ---- */}}
+  {{ if eq $recent "true" }}
+    {{ $currentYear := int (now.Format "2006") }}
+    {{ $minYear := sub $currentYear 4 }}
+    {{ $filtered = where $filtered "year" "ge" $minYear }}
+  {{ end }}
+
+  {{/* ---- 年降順 ---- */}}
+  {{ $sorted := sort $filtered "year" "desc" }}
+
+  <div class="pub-list">
+  {{ range $sorted }}
+    <div class="pub-item">
+
+      <span class="pub-bullet">●</span>&nbsp;&nbsp;
+
+      <span class="pub-authors">{{ .authors }}</span>:
+      <span class="pub-title">“{{ .title }}”</span>
+
+      {{ with .journal }}
+        , <span class="pub-journal">{{ . }}</span>
+      {{ end }}
+
+      {{ with .volume }}
+        , <span class="pub-volume">{{ . }}</span>
+      {{ end }}
+
+      {{ with .pages }}
+        , <span class="pub-pages">{{ . }}</span>
+      {{ end }}
+
+      {{ with .publisher }}
+        , <span class="pub-publisher">{{ . }}</span>
+      {{ end }}
+
+      {{ with .type }}
+        <span class="pub-type"> [{{ . }}]</span>
+      {{ end }}
+
+      {{ with .pubdate }}
+        <span class="pub-date">（{{ . | time.Format "2006-01-02" }}）</span>
+      {{ end }}
+
+      {{ if .doi }}
+        <span class="pub-doi">
+          DOI: <a href="https://doi.org/{{ .doi }}">{{ .doi }}</a>
+        </span>
+      {{ else if .url }}
+        <span class="pub-url">
+          <a href="{{ .url }}">Link</a>
+        </span>
+      {{ end }}
+
+    </div>
+  {{ end }}
+  </div>
+
+{{ end }}
