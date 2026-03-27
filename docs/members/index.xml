@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>現メンバ一覧 on 計算生物学研究室</title>
-    <link>https://tohsato-lab.github.io/members/</link>
+    <link>http://localhost:1313/members/</link>
     <description>Recent content in 現メンバ一覧 on 計算生物学研究室</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>ja</language>
     <managingEditor>yukako@fc.ritsumei.ac.jp (計算生物学研究室)</managingEditor>
     <webMaster>yukako@fc.ritsumei.ac.jp (計算生物学研究室)</webMaster>
-    <atom:link href="https://tohsato-lab.github.io/members/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/members/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>研究室のOB/OG一覧</title>
-      <link>https://tohsato-lab.github.io/members/obog/</link>
+      <link>http://localhost:1313/members/obog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>yukako@fc.ritsumei.ac.jp (計算生物学研究室)</author>
-      <guid>https://tohsato-lab.github.io/members/obog/</guid>
+      <guid>http://localhost:1313/members/obog/</guid>
       <description>&lt;h3 id=&#34;2026年3月の卒業生修了生&#34;&gt;2026年3月の卒業生・修了生&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;神田 裕也&lt;/li&gt;
@@ -28,7 +28,6 @@
 &lt;li&gt;前田 涼 (院進)&lt;/li&gt;
 &lt;li&gt;宮野 楽流 (院進)&lt;/li&gt;
 &lt;li&gt;若原 英嗣 (院進)&lt;/li&gt;
-&lt;li&gt;PENG Jiaqi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;2025年9月の卒業生修了生&#34;&gt;2025年9月の卒業生・修了生&lt;/h3&gt;
 &lt;ul&gt;

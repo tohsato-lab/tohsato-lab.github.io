@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>画像認識 | 計算生物学研究室</title>
 <meta name="keywords" content="">
 <meta name="description" content="
@@ -41,17 +41,17 @@
 そこで「教師なしドメイン適応」と呼ばれる学習手法を試みています。例えば、公共の画像データベースなどに公開されている大量の画像データで、ニューラルネットワークのモデルのパラメータを事前に学習します。そして、「敵対的に学習」として、撮影条件の異なる新しい画像データに対しても画像セグメンテーションができ、かつ、元の画像データのセグメンテーション結果と新しい画像のセグメンテーション結果を区別するよう学習する方法が有効です。さらに、深層学習の学習に、画像の時間的な変化や深さ方向の変化といった、生物学的な情報を活用する方法にも取り組んでいます。これにより、動的なプロセスや立体的な情報を考慮することが可能になります。
 マウスの脳画像(下図左)と行動(右)データを統合的に解析することで、脳の神経細胞の誕生時期や位置、そして、そうした神経細胞の活性化や抑制が、マウスの行動にどのような影響を与えるかを明らかにすることを目指しています。これにより、脳と行動の複雑な関係を理解し、さらには、神経疾患や行動障害のメカニズムについての洞察を得ることを期待しています。">
 <meta name="author" content="map[email:yukako@fc.ritsumei.ac.jp name:計算生物学研究室]">
-<link rel="canonical" href="https://tohsato-lab.github.io/research/segmentation/">
+<link rel="canonical" href="http://localhost:1313/research/segmentation/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f2ecede7f3aa44e5818269487b9875ee8cfdd1f408c7ae6ac36658aa3dd4c3e4.css" integrity="sha256-8uzt5/OqROWBgmlIe5h17oz90fQIx65qw2ZYqj3Uw&#43;Q=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://tohsato-lab.github.io/img/lab-logo1.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://tohsato-lab.github.io/img/lab-logo1.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://tohsato-lab.github.io/img/lab-logo1.png">
-<link rel="apple-touch-icon" href="https://tohsato-lab.github.io/img/lab-logo1.png">
-<link rel="mask-icon" href="https://tohsato-lab.github.io/img/lab-logo1.png">
+<link rel="icon" href="http://localhost:1313/img/lab-logo1.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/lab-logo1.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/img/lab-logo1.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/lab-logo1.png">
+<link rel="mask-icon" href="http://localhost:1313/img/lab-logo1.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://tohsato-lab.github.io/research/segmentation/index.xml" title="rss">
-<link rel="alternate" hreflang="ja" href="https://tohsato-lab.github.io/research/segmentation/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/research/segmentation/index.xml" title="rss">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/research/segmentation/">
 <noscript>
     <style>
         #theme-toggle,
@@ -61,86 +61,51 @@
 
     </style>
 </noscript><link rel="stylesheet" href="/css/lab-custom.css">
-<meta property="og:url" content="https://tohsato-lab.github.io/research/segmentation/">
-  <meta property="og:site_name" content="計算生物学研究室">
-  <meta property="og:title" content="画像認識">
-  <meta property="og:description" content=" 研究テーマ： 研究概要   画像認識   異常検知   因果推論 マウスの脳や線虫の胚を撮影した顕微鏡画像データを例に、画像内に撮影された物体がどこにあるかを推定するための「画像セグメンテーション」という技術の研究開発に取り組んでいます。
-画像セグメンテーションは、画像内の対象物体と背景などを領域ごとに分ける手法です。人工知能や機械学習の手法を利用します。具体的には、ニューラルネットワークに画像とセグメンテーションの正解情報を与えることで、物体の位置を推定します。この学習は「教師あり学習」と呼ばれ、バイオメディカルの分野で得られる小規模な画像に効果的です。例えば、U-net と呼ばれる有名なニューラルネットワークのモデルは、バイオ医療画像のセグメンテーションに適しており、比較的小規模な画像データの学習でも、高い精度を実現します。
-(左) 微分干渉顕微鏡画像と、(右) 細胞核の領域の正解データの例
-しかし、撮影条件を微妙に変えて撮影した画像に対して高精度なセグメンテーションを達成するには、正解データを準備する必要があります。正解データの準備には高い専門知識を要するため、このような問題解決の方法は、現実的ではない場合があります。
-そこで「教師なしドメイン適応」と呼ばれる学習手法を試みています。例えば、公共の画像データベースなどに公開されている大量の画像データで、ニューラルネットワークのモデルのパラメータを事前に学習します。そして、「敵対的に学習」として、撮影条件の異なる新しい画像データに対しても画像セグメンテーションができ、かつ、元の画像データのセグメンテーション結果と新しい画像のセグメンテーション結果を区別するよう学習する方法が有効です。さらに、深層学習の学習に、画像の時間的な変化や深さ方向の変化といった、生物学的な情報を活用する方法にも取り組んでいます。これにより、動的なプロセスや立体的な情報を考慮することが可能になります。
-マウスの脳画像(下図左)と行動(右)データを統合的に解析することで、脳の神経細胞の誕生時期や位置、そして、そうした神経細胞の活性化や抑制が、マウスの行動にどのような影響を与えるかを明らかにすることを目指しています。これにより、脳と行動の複雑な関係を理解し、さらには、神経疾患や行動障害のメカニズムについての洞察を得ることを期待しています。">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="画像認識">
-<meta name="twitter:description" content="">
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "研究概要",
-      "item": "https://tohsato-lab.github.io/research/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "画像認識",
-      "item": "https://tohsato-lab.github.io/research/segmentation/"
-    }
-  ]
-}
-</script>
 </head>
 <body class="list" id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://tohsato-lab.github.io/" accesskey="h" title="計算生物学研究室 (Alt + H)">
-                <img src="https://tohsato-lab.github.io/img/lab-logo.png" alt="" aria-label="logo"
+            <a href="http://localhost:1313/" accesskey="h" title="計算生物学研究室 (Alt + H)">
+                <img src="http://localhost:1313/img/lab-logo.png" alt="" aria-label="logo"
                     height="32">計算生物学研究室</a>
             <div class="logo-switches">
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://tohsato-lab.github.io/" title="研究室の紹介">
+                <a href="http://localhost:1313/" title="研究室の紹介">
                     <span>研究室の紹介</span>
                 </a>
             </li>
             <li>
-                <a href="https://tohsato-lab.github.io/research/" title="研究概要">
+                <a href="http://localhost:1313/research/" title="研究概要">
                     <span>研究概要</span>
                 </a>
             </li>
             <li>
-                <a href="https://tohsato-lab.github.io/members/" title="メンバ">
+                <a href="http://localhost:1313/members/" title="メンバ">
                     <span>メンバ</span>
                 </a>
             </li>
             <li>
-                <a href="https://tohsato-lab.github.io/event/" title="イベント">
+                <a href="http://localhost:1313/event/" title="イベント">
                     <span>イベント</span>
                 </a>
             </li>
             <li>
-                <a href="https://tohsato-lab.github.io/publications/" title="研究成果">
+                <a href="http://localhost:1313/publications/" title="研究成果">
                     <span>研究成果</span>
                 </a>
             </li>
             <li>
-                <a href="https://tohsato-lab.github.io/access/" title="アクセス">
+                <a href="http://localhost:1313/access/" title="アクセス">
                     <span>アクセス</span>
                 </a>
             </li>
             <li>
-                <a href="https://tohsato-lab.github.io/link/" title="関連リンク">
+                <a href="http://localhost:1313/link/" title="関連リンク">
                     <span>関連リンク</span>
                 </a>
             </li>
@@ -200,7 +165,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="https://tohsato-lab.github.io/">計算生物学研究室</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">計算生物学研究室</a></span> · 
 
     <span>
         Powered by
