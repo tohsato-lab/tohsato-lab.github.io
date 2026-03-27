@@ -1,5 +1,5 @@
 baseURL = 'https://tohsato-lab.github.io/'
-title = '計算生物学研究室'
+title = '立命館大学 計算生物学研究室'
 theme = 'PaperMod'
 languageCode = 'ja'
 defaultContentLanguage = 'ja'
@@ -25,6 +25,7 @@ paginate = 10
   hideSummary = true
   logo = "/img/compbio_logo4_cut.png"
   logoWidth = 180
+  description = "立命館大学の計算生物学研究室。顕微鏡画像解析、異常検知、時系列解析、因果推論を通じて生命現象の理解を目指します。"
 
   [params.author]
     name  = "計算生物学研究室"
@@ -42,10 +43,15 @@ paginate = 10
     apple_touch_icon = "img/lab-logo1.png"
     safari_pinned_tab = "img/lab-logo1.png"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [menu]
 
   [[menu.main]]
-    name = "研究室の紹介"
+    name = "ホーム"
     identifier = "home"
     url = "/"
     weight = 1

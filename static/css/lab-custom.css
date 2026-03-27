@@ -2,201 +2,327 @@
  * 研究室サイト用 カスタム CSS
  * ====================================== */
 
-/* （必要なら使えるようにしておく幅指定用の変数） */
 :root {
-  --nav-width: 1024px;
-  --main-width: 1024px;
-}
-
-.lab-hero-logo {
-  text-align: center;
-  margin: 0.4rem 0 0.8rem;
-}
-
-.lab-hero-logo img {
-  width: auto;
-  height: 380px;
+  --nav-width: 1120px;
+  --main-width: 1120px;
+  --brand: #1A4E8A;
+  --brand-soft: #eef4fa;
+  --text-main: #222;
+  --text-sub: #555;
+  --line-soft: #dbe4ee;
 }
 
 /* ----------------------------------------
-   1. ヘッダー・ナビゲーション・背景色
+   1. 全体
    -------------------------------------- */
 
-/* ヘッダー(nav)を濃い青にする */
-.header,
-.nav {
-  background-color: #1A4E8A !important;
-  color: #ffffff !important;
-}
-
-/* メニューのリンク文字を白に */
-.nav a,
-.nav a:visited {
-  color: #ffffff !important;
-}
-
-.nav a:hover {
-  color: #cfe6ff !important;  /* hover時は薄い水色 */
-}
-
-/* サイト全体の左右（本文以外）の背景色 */
 body {
-  background-color: #6BA8CC !important;
+  background-color: #f3f7fb !important;
+  color: var(--text-main);
 }
 
-/* 本文エリアは白背景のまま */
 .main {
   background-color: #ffffff !important;
   border-radius: 0;
 }
 
-/* ロゴとタイトル（左上部分）を少し左に詰める */
-.header .logo {
-  margin-left: -0.1rem;  /* 必要に応じて -1.0rem ～ -2.5rem で調整可 */
+.post-content {
+  font-size: 1.08rem;
+  line-height: 1.95;
+}
+
+.post-content p {
+  margin-bottom: 1.15rem;
+}
+
+.post-content h3 {
+  margin-top: 2.4rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.7rem;
+  border-left: 6px solid var(--brand);
+  padding-left: 0.7rem;
 }
 
 /* ----------------------------------------
-   2. トップページ「最新ニュース」
-   （latest-event ショートコード用）
+   2. ヘッダー・ナビ
    -------------------------------------- */
 
-/* 外枠なしで本文と位置を揃える */
+.header,
+.nav {
+  background-color: var(--brand) !important;
+  color: #ffffff !important;
+}
+
+.nav a,
+.nav a:visited {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: #dcecff !important;
+}
+
+.header .logo {
+  margin-left: 0;
+  font-weight: 700;
+}
+
+/* ----------------------------------------
+   3. ロゴ画像
+   -------------------------------------- */
+
+.lab-hero-logo {
+  text-align: center;
+  margin: 0.2rem 0 1.4rem;
+}
+
+.lab-hero-logo img {
+  width: min(100%, 760px);
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+}
+
+/* ----------------------------------------
+   4. 画像
+   -------------------------------------- */
+
+.post-content img {
+  border-radius: 14px;
+}
+
+.post-content > p img,
+.post-content img[src*="combio_lab"] {
+  display: block;
+  margin: 0.4rem 0 0.8rem;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ----------------------------------------
+   5. 箇条書き
+   -------------------------------------- */
+
+.post-content ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.35rem;
+}
+
+/* ----------------------------------------
+   6. 最新ニュース
+   -------------------------------------- */
+
 .latest-event {
-  margin: 2rem 0 0 0;  /* 上だけ少し余白 */
+  margin: 2.2rem 0 0 0;
   padding: 0;
   border: none;
   background: transparent;
 }
 
-/* 日付部分（等幅フォント＋少し余白） */
-.latest-event .event-date {
-  font-weight: bold !important;
-  font-family: monospace;
-  margin-right: 0.5rem;
+.latest-event h3,
+.latest-event h2 {
+  margin-bottom: 0.9rem;
 }
 
-/* 箇条書きマークを消して左端を揃える */
 .latest-event ul {
   padding-left: 0;
   list-style: none;
   margin: 0;
 }
 
-/* 奇数行・偶数行で縞模様（Excel風） */
-.latest-event ul li:nth-child(odd) {
-  background-color: #f2f2f2;
-}
-.latest-event ul li:nth-child(even) {
-  background-color: #ffffff;
+.latest-event ul li {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.45rem;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  background: #fbfdff;
 }
 
-/* 各行の上下余白 */
-.latest-event ul li {
-  padding: 0.5rem 0;
-  margin-bottom: 0.15rem;
-  border-radius: 0;
+.latest-event .event-date {
+  display: inline-block;
+  min-width: 8.5em;
+  font-weight: 700 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--brand);
+  margin-right: 0.4rem;
 }
 
 /* ----------------------------------------
-   3. /event/ の一覧（events-latest-and-links 等）
+   7. eventページ
    -------------------------------------- */
 
-/* 年ごとのイベントリスト（ul のスタイル） */
 .events-list ul {
   list-style: none;
   padding-left: 0;
 }
 
-/* 各イベント（1件分）の余白 */
 .events-list .event-item {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
 }
 
-/* event ページ内の年ごとの一覧の日付を太字 */
 .events-list .event-date {
   font-weight: bold !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--brand);
 }
 
-/* メタ情報（日時＋タイトルなど） */
 .events-list .event-meta {
   display: block;
 }
 
-/* イベント本文テキスト */
 .events-list .event-text {
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
+  line-height: 1.8;
 }
 
-/* 画像つきイベントの画像まわり */
 .events-list .event-image-wrapper {
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
 }
 
-/* 複数画像を横並び・折り返し */
 .events-list .event-images {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.4rem;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
 }
 
 .events-list .event-thumb {
-  width: auto;   /* 調整可：80〜150px */
-  height: 240px;
-  border-radius: 15px;
-}
-
-/* /event/ の日付フォント（等幅） */
-.events-list .event-date {
-  font-family: monospace;
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 /* ----------------------------------------
-   4. 研究業績（publications）用スタイル
+   8. publications
    -------------------------------------- */
 
-/* 年ごとの見出し */
 .pub-year {
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  border-left: 5px solid #1A4E8A;
+  margin-bottom: 0.7rem;
+  border-left: 5px solid var(--brand);
   padding-left: 0.6rem;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-/* 日付（年内での並びに付ける補足） */
 .pub-date {
   margin-left: 0.3rem;
   font-size: 0.95em;
-  color: #555;
+  color: var(--text-sub);
 }
 
-/* 業績リスト全体 */
 .pub-list {
   list-style: none;
   padding-left: 0;
 }
 
-/* 各論文の余白 */
 .pub-item {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.55rem;
 }
 
-/* 著者を少し太字に */
 .pub-authors {
   font-weight: 600;
 }
 
-/* タイトルは通常フォント（イタリック解除） */
 .pub-title {
   font-style: normal;
 }
 
-/* DOI / URL 表示まわり */
 .pub-doi,
 .pub-url {
   margin-left: 0.3rem;
   font-size: 0.95em;
 }
 
+/* ----------------------------------------
+   9. モバイル
+   -------------------------------------- */
+
+@media (max-width: 768px) {
+  :root {
+    --nav-width: 100%;
+    --main-width: 100%;
+  }
+
+  .post-content {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  .post-content h3 {
+    font-size: 1.35rem;
+  }
+
+  .lab-hero-logo img {
+    max-height: 220px;
+  }
+
+  .latest-event ul li {
+    padding: 0.7rem 0.8rem;
+  }
+
+  .latest-event .event-date {
+    display: block;
+    min-width: auto;
+    margin-bottom: 0.2rem;
+  }
+
+  .events-list .event-thumb {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    object-fit: cover;
+  }
+}
+
+.home-photo-links {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 1fr);
+  gap: 1.5rem;
+  align-items: center;   /* これが重要 */
+}
+
+.home-photo {
+  height: 100%;
+}
+
+.home-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;           /* auto ではなく 100% にする */
+  object-fit: cover;      /* 枠いっぱいに収める */
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.home-links-box {
+  background: #fbfdff;
+  border: 1px solid #dbe4ee;
+  border-radius: 14px;
+  padding: 1rem 1rem;
+}
+
+.home-links-box h4 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.45rem;
+  line-height: 1.3;
+}
+
+.home-links-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.home-links-box li {
+  margin-bottom: 0.4rem;
+  line-height: 1.55;
+}

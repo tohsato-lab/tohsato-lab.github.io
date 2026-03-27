@@ -12,18 +12,7 @@ hideSummary: true
 住所: 〒567-8570 大阪府 茨木市岩倉町2-150  
 Email: yukako [at] fc.ritsumei.ac.jp  
 
-[立命館大学の教員データベース](https://research-db.ritsumei.ac.jp/rithp/k03/resid/S000228)・[Research map](https://researchmap.jp/read0193848/?lang=japanese) 
-
----
-
-## 研究概要
-
-生命科学の分野のデータ解析にブレイクスルーをもたらす新しい情報科学技術を研究しています。イメージングやオミクス計測技術により生み出される大量データから新たな生物学的知見を推論できる方法論の確立を目指しています。現在は、次のようなテーマに取り組んでいます。 
-- 線虫の胚発生画像などを対象としたセグメンテーションや異常検知を行う深層学習技術の開発
-- 代謝に関わるオミクスデータからの時系列因果推論などに取り組んでいます。
-- マウス脳画像・表現型データの解析
-
-キーワード：計算生物学, バイオインフォマティクス, バイオイメージング, オミクス, 因果推論
+[立命館大学の教員データベース](https://research-db.ritsumei.ac.jp/rithp/k03/resid/S000228)・[Research map](https://researchmap.jp/read0193848/?lang=japanese) ・[ORCiD](https://orcid.org/0000-0001-8378-2383)
 
 ---
 

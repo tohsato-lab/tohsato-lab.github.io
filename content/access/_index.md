@@ -14,3 +14,7 @@ title = 'アクセス'
 2-150 Iwakura-cho, Ibaraki, Osaka 567-8570, JAPAN   
 Ritsumeikan University
 
+![OIC map](/img/map_OIC.png)
+
+
+
