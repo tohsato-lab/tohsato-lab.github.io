@@ -29,7 +29,7 @@ title = ''
   <div class="home-links-box">
     <h4>本サイトの内容</h4>
     <ul>
-      <li><a href="/research/">研究概要</a>：研究テーマと方法</li>
+      <li><a href="/research/">研究内容</a>：研究テーマと方法</li>
       <li><a href="/members/">メンバ</a>：教員・学生・研究体制</li>
       <li><a href="/event/">イベント</a>：研究室活動の記録</li>
       <li><a href="/publications/">研究成果</a>：論文・発表実績</li>
