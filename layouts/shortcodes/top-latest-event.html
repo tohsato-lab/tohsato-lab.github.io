@@ -5,7 +5,7 @@
   {{ $sorted := sort $all "date" "desc" }}
 
   <section class="latest-event">
-    <h3>最新ニュース（5件）</h3>
+    <h3>最新イベント（5件）</h3>
     <ul>
       {{ range first 5 $sorted }}
         <li class="event-item">
@@ -37,6 +37,6 @@
       {{ end }}
     </ul>
 
-    <p><a href="/event/">→ 全ニュースへ</a></p>
+    <p><a href="/event/">→全イベントへ</a></p>
   </section>
 {{ end }}
