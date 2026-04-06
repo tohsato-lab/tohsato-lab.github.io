@@ -33,7 +33,7 @@ images = ["img/event/20250905_IIBMP2025.jpg", "img/event/20250903_selected_poset
 date  = "2025-09-20"
 end   = "2025-09-24"
 title = "ICONIP2025で学会発表"
-text  = "沖縄科学技術大学院大学（OIST）で行われた、ICONIPで、修了生の清水くんが口頭発表しました。ICONIPは、アジア太平洋神経ネットワーク学会（APNNS）が主催する、ニューラルネットワークなどの分野の主要国際会議です。6%ぐらいの採択率でした。難関突破！嬉しいです。おめでとう！"
+text  = "沖縄科学技術大学院大学（OIST）で行われた、ICONIPで、修了生の清水くんが口頭発表しました。ICONIPは、アジア太平洋神経ネットワーク学会（APNNS）が主催する、ニューラルネットワークなどの分野の主要国際会議です。採択率が6%と低い国際会議での口頭発表でした。優れた成果として高く評価されました。おめでとう！"
 images = ["img/event/20250912_ICONIP_1.jpg", "img/event/20250912_ICONIP_2.jpg", "img/event/20250912_ICONIP_mag-3.jpg"]
 
 [[events]]

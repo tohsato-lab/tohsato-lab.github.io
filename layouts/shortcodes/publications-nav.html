@@ -1,35 +1,27 @@
-{{/* 
+{{/*
   publications-nav.html
-  研究業績ページ用のシンプルナビ（event-years-nav と同じ形式）
+  研究業績ページ用のカード型ナビ
   パラメータ:
-    current … "journal", "conference", "book" のいずれか
+    current … "new", "journal", "conference", "book" のいずれか
 */}}
 
 {{ $current := .Get "current" | default "" }}
 
-<p class="pub-years-nav">
-  全期間の記録：
-  
-  {{/* Journal */}}
-  {{ if eq $current "journal" }}
-    <span class="pub-nav-current">雑誌論文</span>
-  {{ else }}
-    <a href="/publications/journal/">雑誌論文</a>
-  {{ end }}
-  &nbsp;
+<div class="topnav">
+  <a href="/publications" class="topnav-card {{ if eq $current "new" }}active{{ end }}">
+    <h4>過去5年</h4>
+  </a>
 
-  {{/* Conference */}}
-  {{ if eq $current "conference" }}
-    <span class="pub-nav-current">国際会議議事録</span>
-  {{ else }}
-    <a href="/publications/conference/">国際会議議事録</a>
-  {{ end }}
-  &nbsp;
+  <a href="/publications/journal/" class="topnav-card {{ if eq $current "journal" }}active{{ end }}">
+    <h4>雑誌論文</h4>
+  </a>
 
-  {{/* Book */}}
-  {{ if eq $current "book" }}
-    <span class="pub-nav-current">書籍・事典・解説など</span>
-  {{ else }}
-    <a href="/publications/book/">書籍・事典・解説など</a>
-  {{ end }}
-</p>
+  <a href="/publications/conference/" class="topnav-card {{ if eq $current "conference" }}active{{ end }}">
+    <h4>国際会議議事録</h4>
+  </a>
+
+  <a href="/publications/book/" class="topnav-card {{ if eq $current "book" }}active{{ end }}">
+    <h4>書籍・事典・解説など</h4>
+  </a>
+
+</div>

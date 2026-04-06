@@ -1,6 +1,6 @@
 {{/* 
   event-years-nav.html
-  年別イベントページへのリンク一覧（チップ型ナビ）
+  年別イベントページへのリンク一覧
   パラメータ:
     current … カンマ区切りの複数年 (例: "2026,2025")
 */}}
@@ -27,13 +27,15 @@
     {{ end }}
   {{ end }}
 
-  <div class="event-year-nav">
-    {{ range $years }}
-      {{ if in $currentList . }}
-        <span class="event-year-chip active">{{ . }}年</span>
+  <p class="event-years-nav">
+    年別の記録：
+    {{ range $i, $y := $years }}
+      {{ if gt $i 0 }}&nbsp;{{ end }}
+      {{ if in $currentList $y }}
+        <span class="event-year-current">{{ $y }}年</span>
       {{ else }}
-        <a href="/event/{{ . }}/" class="event-year-chip">{{ . }}年</a>
+        <a href="/event/{{ $y }}/">{{ $y }}年</a>
       {{ end }}
     {{ end }}
-  </div>
+  </p>
 {{ end }}

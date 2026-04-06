@@ -32,7 +32,7 @@
     {{ $year := . }}
 
     <section class="events-list latest-year">
-      <h2 class="event-year">{{ $year }}年</h2>
+      <h3 class="event-year">{{ $year }}年</h3>
       <ul class="event-year-list">
         {{ range $sorted }}
           {{ $y := (.date | time.Format "2006") }}

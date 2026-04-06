@@ -1,0 +1,35 @@
+{{/* 
+  publications-nav.html
+  研究業績ページ用のシンプルナビ（event-years-nav と同じ形式）
+  パラメータ:
+    current … "journal", "conference", "book" のいずれか
+*/}}
+
+{{ $current := .Get "current" | default "" }}
+
+<p class="pub-years-nav">
+  全期間の記録：
+  
+  {{/* Journal */}}
+  {{ if eq $current "journal" }}
+    <span class="pub-nav-current">雑誌論文</span>
+  {{ else }}
+    <a href="/publications/journal/">雑誌論文</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* Conference */}}
+  {{ if eq $current "conference" }}
+    <span class="pub-nav-current">国際会議議事録</span>
+  {{ else }}
+    <a href="/publications/conference/">国際会議議事録</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* Book */}}
+  {{ if eq $current "book" }}
+    <span class="pub-nav-current">書籍・事典・解説など</span>
+  {{ else }}
+    <a href="/publications/book/">書籍・事典・解説など</a>
+  {{ end }}
+</p>

@@ -1,0 +1,43 @@
+{{/* 
+  research-nav.html
+  研究テーマのナビゲーション
+  current:
+    "g0" / "g1" / "g2" / "g3"
+*/}}
+
+{{ $current := .Get "current" | default "" }}
+
+<p class="research-nav">
+  研究テーマ：
+
+  {{/* 研究概要 */}}
+  {{ if eq $current "g0" }}
+    <span class="research-nav-current">研究概要</span>
+  {{ else }}
+    <a href="/research/">研究概要</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* 画像認識 */}}
+  {{ if eq $current "g1" }}
+    <span class="research-nav-current">画像認識</span>
+  {{ else }}
+    <a href="/research/g1/">画像認識</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* 異常検知 */}}
+  {{ if eq $current "g2" }}
+    <span class="research-nav-current">異常検知</span>
+  {{ else }}
+    <a href="/research/g2/">異常検知</a>
+  {{ end }}
+  &nbsp;
+
+  {{/* 因果推論 */}}
+  {{ if eq $current "g3" }}
+    <span class="research-nav-current">因果推論</span>
+  {{ else }}
+    <a href="/research/g3/">因果推論</a>
+  {{ end }}
+</p>
