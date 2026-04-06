@@ -25,11 +25,11 @@ title = 'G1: 画像認識'
 
 <div class="figure-compare">
   <figure>
-    <img src="/img/g1_unet.jpg" alt="従来手法">
+    <img src="/img/g1_unet.png" alt="従来手法">
     <figcaption>従来手法（U-Net）</figcaption>
   </figure>
   <figure>
-    <img src="/img/g1_proposed.jpg" alt="提案手法">
+    <img src="/img/g1_proposed.png" alt="提案手法">
     <figcaption>提案手法</figcaption>
   </figure>
 </div>
