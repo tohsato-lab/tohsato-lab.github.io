@@ -5,9 +5,9 @@
   {{ $sorted := sort $all "date" "desc" }}
 
   <section class="latest-event">
-    <h3>最新イベント（7件）</h3>
+    <h3>最新イベント（5件）</h3>
     <ul>
-      {{ range first 7 $sorted }}
+      {{ range first 5 $sorted }}
         <li class="event-item">
           <span class="event-date">
             {{ if .end }}

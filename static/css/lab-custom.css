@@ -27,6 +27,14 @@ body {
 }
 
 
+a {
+  color: #1a4fa3;
+}
+
+a:hover {
+  color: #0b2c6b;
+}
+
 .post-content {
   font-size: 1.08rem;
   line-height: 1.95;
@@ -195,6 +203,15 @@ body {
   font-weight: bold !important;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color: var(--brand);
+}
+
+.event-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.event-date {
+  color: #777;
 }
 
 .events-list .event-meta {
