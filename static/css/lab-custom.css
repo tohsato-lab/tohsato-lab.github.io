@@ -514,46 +514,6 @@ a:hover {
   }
 }
 
-/* ===== カード全体 ===== */
-.research-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin: 20px 0 30px 0;
-}
-
-/* ===== カード本体 ===== */
-.research-card {
-  display: block;
-  padding: 18px 20px;
-  border-radius: 10px;
-  background: #f7f9fc;
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.2s ease;
-  border: 1px solid #e5e7eb;
-}
-
-/* ===== ホバー ===== */
-.research-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-
-/* ===== タイトル ===== */
-.research-card h3 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 1.05rem;
-}
-
-/* ===== 本文 ===== */
-.research-card p {
-  margin: 0;
-  font-size: 0.92rem;
-  line-height: 1.6;
-}
-
 /* ===== 動画 ===== */
 .video-container {
   margin-top: 30px;
@@ -598,10 +558,9 @@ a:hover {
   border-radius: 0;
 }
 
-#
-# 動画再生
-#
-
+/* ----------------------------------------
+   動画再生
+   -------------------------------------- */
 .video-wrapper {
   position: relative;
   cursor: pointer;
@@ -643,12 +602,8 @@ a:hover {
   display: block;
 }
 
-#
-#
-#
-/* ===== 研究ページ上部の小型ナビ ===== */
 /* =========================
-   研究ページ共通ナビ
+   研究ページ上部の小型ナビ
    ========================= */
 
 .research-subcards-top {
@@ -697,59 +652,62 @@ a:hover {
    研究概要の大きいカード
    ========================= */
 
+/* #43a047; */
+
 .research-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin: 20px 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin: 1rem 0 1.5rem 0;
 }
 
 .research-card {
+  flex: 1 1 220px;
+  min-width: 180px;
+  max-width: 300px;
   display: block;
-  padding: 18px 20px;
-  border-radius: 10px;
-  background: #f7f9fc;
+  padding: 16px 18px 16px 26px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #d0d7e2;
   text-decoration: none;
   color: inherit;
-  border: 1px solid #e5e7eb;
   transition: all 0.2s ease;
+  position: relative;
 }
 
-.research-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+.research-card::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  bottom: 14px;
+  width: 4px;
+  border-radius: 2px;
 }
 
 .research-card h3 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-size: 1.05rem;
-  line-height: 1.5;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .research-card p {
-  margin: 0;
-  font-size: 0.92rem;
-  line-height: 1.7;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5;
 }
 
-/* =========================
-   動画表示
-   ========================= */
-
-.video-container {
-  margin-top: 24px;
+.research-card:hover {
+  background: #f1f8f2;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(67, 160, 71, 0.16);
 }
 
-.video-container video,
-.video-container iframe {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  border: none;
-  box-shadow: none;
-  border-radius: 0;
+.research-card:hover h3 {
+  color: #2e7d32;
 }
 
 /* =========================
@@ -774,79 +732,49 @@ a:hover {
   margin: 0.8rem 0 1.6rem 0;
 }
 
-/* 通常状態 */
-.topnav-card {
-  background: #f4f7fb;
-  border: 1px solid #d0d7e2;
-  color: #2b2b2b;
-}
-
-/* テキストを少しリンク寄りに */
-.topnav-card h4 {
-  color: #2b4c7e;
-  font-weight: 600;
-}
-
-/* hoverで「リンクだ」と分かるようにする */
-.topnav-card:hover {
-  background: #e6f0ff;
-  border-color: #2b6cb0;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(43,108,176,0.15);
-}
-
-.topnav-card:hover h4 {
-  color: #1a4f9c;
-}
-
-/* active（現在ページ）は明確に */
-.topnav-card.active {
-  background: #2b6cb0;
-  border-color: #2b6cb0;
-}
-
-.topnav-card.active h4 {
-  color: #ffffff;
-}
-
 .topnav-card {
   flex: 1 1 220px;
   min-width: 180px;
   max-width: 260px;
 
   display: block;
-  padding: 10px 14px;
+  padding: 12px 14px;
   border: 1px solid #d8dee9;
-  border-radius: 8px;
+  border-radius: 10px;
   background: #f8fafc;
   text-decoration: none;
   color: inherit;
   transition: all 0.2s ease;
 }
 
-.topnav-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
 .topnav-card h4 {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.4;
+  color: #2b4c7e;
+  font-weight: 700;
 }
 
-.topnav-card.active {
+.topnav-card p {
+  margin: 6px 0 0 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #555;
+}
+
+.topnav-card:hover {
   background: #eef5ff;
   border-color: #2b6cb0;
-  box-shadow: inset 0 0 0 1px #2b6cb0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(43, 108, 176, 0.15);
 }
 
-.topnav-card.active h4 {
-  color: #1f4f8a;
+.topnav-card:hover h4 {
+  color: #1a4f9c;
 }
 
 @media (max-width: 768px) {
-  .research-topnav-card {
+  .topnav-card {
     flex: 1 1 100%;
     max-width: 100%;
   }
@@ -951,3 +879,4 @@ a:hover {
 .profile-links a:hover {
   border-bottom: 1px solid #2b5c8a;
 }
+
