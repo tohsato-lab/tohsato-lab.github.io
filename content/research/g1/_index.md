@@ -1,5 +1,5 @@
 +++
-title = 'G1: 画像認識・セグメンテーション'
+title = 'G1: 画像認識'
 +++
 
 {{< research-nav current="g1" >}}
