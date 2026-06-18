@@ -6,7 +6,8 @@ title = '関連リンク'
 
 - [立命館大学](https://www.ritsumei.ac.jp)
 - [立命館大学 情報理工学部](https://www.ritsumei.ac.jp/ise/)
-- [立命館大学 知能情報コース](https://www.ai.ise.ritsumei.ac.jp)
+- [立命館大学 情報理工学部 知能情報コース](https://www.ai.ise.ritsumei.ac.jp)
+- [立命館大学 moodle+R](https://lms.ritsumei.ac.jp/my/)
 
 ### 関連学会や研究会
 - [生命医薬情報連合大会 (IIBMP)](https://www.jsbi.org/iibmp2025/)<BR>
