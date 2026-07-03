@@ -2,7 +2,7 @@
 title = '現メンバ一覧'
 +++
 
-計算生物学研究室には現在、教員1名、大学院生11名、学部生10名が所属しています。
+計算生物学研究室には現在、教員1名、大学院生11名、学部生21名が所属しています。
 
 <div class="members-page">
 
@@ -55,6 +55,23 @@ title = '現メンバ一覧'
 <li>横前 結斗</li>
 <li>西住 悠</li>
 <li>XIN Hao</li>
+</ul>
+</section>
+
+<section class="member-group member-group-">
+<h3>学部3回生（B3・11名）</h3>
+<ul class="member-name-list">
+<li>WU Yu-han</li>
+<li>草野 徠</li>
+<li>川西 海斗</li>
+<li>川瀬 椋大</li>
+<li>竹口 拓海</li>
+<li>有馬 徹平</li>
+<li>平本 歩夢</li>
+<li>高木 走多</li>
+<li>藤原 珀</li>
+<li>七條 拓実</li>
+<li>張 晟祺</li>
 </ul>
 </section>
 
