@@ -2,7 +2,7 @@
 title = '現メンバ一覧'
 +++
 
-計算生物学研究室には現在、教員1名、大学院生11名、学部生21名が所属しています。
+計算生物学研究室には現在、教員1名、大学院生11名、学部生24名が所属しています。
 
 <div class="members-page">
 
@@ -31,47 +31,50 @@ title = '現メンバ一覧'
 <section class="member-group">
 <h3>修士1年生（M1・8名）</h3>
 <ul class="member-name-list">
-<li>尾野寺 佑太</li>
-<li>張 冬陽</li>
 <li>大竹 修太朗</li>
+<li>尾野寺 佑太</li>
 <li>曾我部 風雅</li>
 <li>前田 涼</li>
 <li>宮野 楽流</li>
 <li>若原 英嗣</li>
 <li>テグットリ</li>
+<li>張 冬陽</li>
 </ul>
 </section>
 
 <section class="member-group member-group-">
-<h3>学部4回生（B4・10名）</h3>
+<h3>学部4回生（B4・13名）</h3>
 <ul class="member-name-list">
-<li>速水 秀馬</li>
-<li>武智 優樹</li>
-<li>後藤 梨里</li>
-<li>近藤 結花</li>
 <li>河野 真尋</li>
+<li>坂本 晴太郎</li>
+<li>高橋 慶真</li>
 <li>松浦 空輝</li>
 <li>山口 縁始</li>
 <li>横前 結斗</li>
 <li>西住 悠</li>
 <li>XIN Hao</li>
+<li>武智 優樹</li>
+<li>速水 秀馬</li>
+<li>近藤 結花</li>
+<li>岩田 舜太朗</li>
+<li>津田 雄大</li>
 </ul>
 </section>
 
 <section class="member-group member-group-">
 <h3>学部3回生（B3・11名）</h3>
 <ul class="member-name-list">
-<li>WU Yu-han</li>
-<li>草野 徠</li>
-<li>川西 海斗</li>
-<li>川瀬 椋大</li>
-<li>竹口 拓海</li>
 <li>有馬 徹平</li>
-<li>平本 歩夢</li>
+<li>川瀬 椋大</li>
+<li>川西 海斗</li>
+<li>草野 徠</li>
 <li>高木 走多</li>
+<li>竹口 拓海</li>
+<li>平本 歩夢</li>
 <li>藤原 珀</li>
-<li>七條 拓実</li>
+<li>WU Yu-han</li>
 <li>張 晟祺</li>
+<li>七條 拓実</li>
 </ul>
 </section>
 
