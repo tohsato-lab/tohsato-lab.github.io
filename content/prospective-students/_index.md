@@ -118,7 +118,7 @@ Please attach the following materials:
 1. A current curriculum vitae, including your present affiliation
 2. Your undergraduate academic transcript
 3. An abstract or the full text of your undergraduate thesis
-4. If available, evidence of your implementation experience in machine learning, image analysis, or data analysis
+4. Evidence of your implementation experience in machine learning, image analysis, or data analysis, if available
 5. Your proposed research topic and research plan (approximately one page in a freely formatted Word document; please do not use the official graduate admissions form at this stage)
 6. Evidence of Japanese or English proficiency, if available
 
