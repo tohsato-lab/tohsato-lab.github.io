@@ -100,7 +100,7 @@ Japanese is the primary language used in laboratory seminars, research supervisi
 
 Preliminary consultation, document review, interviews, and adjustment of the research plan require sufficient time. As a general rule, please contact us **two to three months before the application period begins**. Late inquiries may not allow sufficient time to review the materials, arrange an interview, adjust the research plan, or sign and seal the required documents.
 
-Please include the following information in your initial email. Use the subject line “Preliminary Consultation for Graduate Admission: Name and Intended Enrollment Date.”
+Please include the following information in your initial email. Use the subject line **“Preliminary Consultation for Graduate Admission: Name and Intended Enrollment Date.”**
 
 1. Your full name  
 2. Your intended enrollment date and the admissions route through which you plan to apply  
