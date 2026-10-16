@@ -33,25 +33,23 @@ title = "学外から大学院進学を希望する方へ"
 
 初回のメールには、次の事項を記載してください。メールの件名は「大学院進学に関する事前相談：氏名・希望入学時期」の形式としてください。
 
-1. 氏名
-2. 現在の所属大学、学部、学科、研究室等
-3. 希望する入学時期
-4. 利用を予定している入試方式
-5. 現在居住している国または地域
-6. 当研究室を志望する理由
-7. 日本語および英語の学習状況や語学試験の成績
-8. 現在または過去に他大学・他研究室へ所属している場合は、その在籍状況、在籍期間および進学先を変更する理由
+1. 氏名  
+2. 現在居住している国または地域  
+3. 日本語および英語の学習状況ならびに語学試験の成績  
+4. 希望する入学時期および出願予定の入試方式  
+5. 当研究室を志望する理由  
+6. 通常の卒業・修了に伴う進学ではなく、現在の所属を変更して進学を希望する場合は、その在籍状況、在籍期間および変更理由
 
 次の資料を添付してください。
 
-1. 現在の所属を含む履歴書
-2. 学部の成績証明書
-3. 卒業研究の要旨または卒業論文の全文
-4. 機械学習、画像解析またはデータ解析の実装経験が分かる資料（該当する場合・任意）
-5. 希望する研究テーマおよび研究計画書（大学院入試用の所定様式ではなく、書式自由のWordファイルで1ページ程度）
-6. 日本語または英語能力を証明する資料がある場合は、その写し
+1. 現在の所属を含む履歴書  
+2. 学部の成績証明書、および大学院への在籍経験がある場合は大学院の成績証明書  
+3. 卒業論文または修士論文の要旨もしくは全文（該当する最新のもの）  
+4. 希望する研究テーマおよび研究計画書（大学院入試用の所定様式ではなく、書式自由のWordファイルで1ページ程度）  
+5. 日本語または英語能力を証明する資料がある場合は、その写し  
+6. 機械学習、画像解析またはデータ解析の実装経験が分かる資料（該当する場合・任意）
 
-履歴書、成績証明書、卒業論文等は、日本語または英語以外で作成されたものでも受け付けます。ただし、内容を確認するため、卒業研究については日本語または英語の要旨を添付してください。また、成績証明書については、科目名と成績評価制度を確認できる日本語または英語の説明を添付してください。初回の事前相談では、翻訳機関等による正式な翻訳である必要はありません。正式出願時に必要な翻訳や証明については、最新の募集要項に従ってください。
+履歴書、成績証明書、卒業論文等は、日本語または英語以外で作成されたものでも受け付けます。ただし、提出する卒業研究の要旨または卒業論文が日本語・英語以外で作成されている場合は、内容確認のため、日本語または英語の要旨を添付してください。成績証明書が日本語・英語以外で作成されている場合も、科目名と成績評価制度を確認できる日本語または英語の簡単な説明を添付してください。初回の事前相談では、翻訳機関等による正式な翻訳である必要はありません。正式出願時に必要な翻訳や証明については、最新の募集要項に従ってください。
 
 機械学習、画像解析またはデータ解析の実装経験がある場合は、可能であれば、ご自身が実装した代表的なソースコードの一部を添付するか、公開リポジトリのURLを記載してください。その目的と処理内容についても簡潔に説明してください。共同研究・共同制作の場合は、ご自身が担当した部分を明記してください。データセット、学習済みモデル、大容量ファイル、個人情報、認証情報および共有する権限のない資料は添付しないでください。提出資料について、面談で説明を求めることがあります。
 
@@ -104,25 +102,23 @@ Preliminary consultation, document review, interviews, and adjustment of the res
 
 Please include the following information in your initial email. Use the subject line “Preliminary Consultation for Graduate Admission: Name and Intended Enrollment Date.”
 
-1. Your full name
-2. Your current university, department, program, and laboratory, if applicable
-3. Your intended enrollment date
-4. The admissions route through which you plan to apply
-5. Your current country or region of residence
-6. Your reasons for applying to our laboratory
-7. Your Japanese- and English-language proficiency, including language test scores
-8. If you are currently or were previously affiliated with another university or laboratory, your enrollment status, period of affiliation, and reason for changing institutions or laboratories
+1. Your full name  
+2. Your intended enrollment date and the admissions route through which you plan to apply  
+3. Your current country or region of residence  
+4. Your Japanese- and English-language proficiency, including any language test scores  
+5. Your reasons for applying to our laboratory  
+6. If you intend to change your current affiliation for reasons other than the ordinary graduation or completion of your current program, please describe your current enrollment status, period of enrollment, and reasons for the change.  
 
 Please attach the following materials:
 
-1. A current curriculum vitae, including your present affiliation
-2. Your undergraduate academic transcript
-3. An abstract or the full text of your undergraduate thesis
-4. Evidence of your implementation experience in machine learning, image analysis, or data analysis, if available
-5. Your proposed research topic and research plan (approximately one page in a freely formatted Word document; please do not use the official graduate admissions form at this stage)
-6. Evidence of Japanese or English proficiency, if available
+1. A current curriculum vitae (CV), including your present affiliation  
+2. Your undergraduate academic transcript and, if you have attended a graduate program, your graduate academic transcript  
+3. An abstract or the full text of your undergraduate or master’s thesis, whichever is most recent and applicable  
+4. Your proposed research topic and research plan, approximately one page in a freely formatted Word document; please do not use the official graduate admissions form at this stage  
+5. Evidence of Japanese- or English-language proficiency, if available  
+6. If applicable, evidence of your implementation experience in machine learning, image analysis, or data analysis (optional)
 
-Curricula vitae, academic transcripts, theses, and related documents written in languages other than Japanese or English are accepted. However, if your undergraduate thesis is written in another language, please also provide an abstract in Japanese or English. For an academic transcript written in another language, please provide a Japanese or English explanation of the course titles and grading system. Certified translations are not required for the initial consultation. Please follow the latest official application guidelines regarding translations and certification required for the formal application.
+CV, academic transcripts, undergraduate theses, and related documents written in languages other than Japanese or English are accepted. However, if the submitted abstract or full text of your undergraduate thesis is written in another language, please also provide an abstract in Japanese or English so that we can review its content. If your academic transcript is written in a language other than Japanese or English, please also provide a brief explanation in Japanese or English of the course titles and grading system. Certified translations are not required for the initial consultation. Please follow the latest application guidelines regarding any translations or certifications required for the formal application.
 
 If you have experience implementing machine learning, image analysis, or data analysis methods, please, if possible, attach a representative excerpt of source code that you implemented yourself or provide the URL of a publicly accessible repository. Please also briefly explain the purpose of the code and what it does. If the code was developed as part of a collaborative research or development project, clearly indicate the parts for which you were responsible. Do not attach datasets, trained models, large files, personal information, credentials, or materials that you are not authorized to share. You may be asked to explain the submitted materials during an interview.
 
