@@ -31,7 +31,7 @@ title = "学外から大学院進学を希望する方へ"
 
 事前相談、資料確認、面談および研究計画の調整には時間を要します。原則として、**出願期間が始まる2～3か月前まで**にご連絡ください。連絡が遅い場合は、資料の確認、面談、研究計画の調整、研究計画書への署名・押印等に対応できないことがあります。
 
-初回のメールには、次の事項を記載してください。メールの件名は「大学院進学に関する事前相談：氏名・希望入学時期」の形式としてください。
+初回のメールには、次の事項を記載してください。メールの件名は**「大学院進学に関する事前相談：氏名・希望入学時期」**の形式としてください。**
 
 1. 氏名  
 2. 現在居住している国または地域  
@@ -40,7 +40,7 @@ title = "学外から大学院進学を希望する方へ"
 5. 当研究室を志望する理由  
 6. 通常の卒業・修了に伴う進学ではなく、現在の所属を変更して進学を希望する場合は、その在籍状況、在籍期間および変更理由
 
-次の資料を添付してください。
+加えて、次の資料をそれぞれPDFまたはWordファイルとして用意し、1通のメールにまとめて添付してください。
 
 1. 現在の所属を含む履歴書  
 2. 学部の成績証明書、および大学院への在籍経験がある場合は大学院の成績証明書  
@@ -109,7 +109,7 @@ Please include the following information in your initial email. Use the subject 
 5. Your reasons for applying to our laboratory  
 6. If you intend to change your current affiliation for reasons other than the ordinary graduation or completion of your current program, please describe your current enrollment status, period of enrollment, and reasons for the change.  
 
-Please attach the following materials:
+In addition, please prepare each of the following documents as a separate PDF or Word file and attach all of them to a single email.
 
 1. A current curriculum vitae (CV), including your present affiliation  
 2. Your undergraduate academic transcript and, if you have attended a graduate program, your graduate academic transcript  
