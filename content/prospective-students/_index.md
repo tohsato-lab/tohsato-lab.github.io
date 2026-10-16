@@ -70,9 +70,9 @@ title = "学外から大学院進学を希望する方へ"
 
 資料をお送りいただいたすべての方と面談を行うわけではありません。提出資料を確認したうえで、さらに検討を進める場合に面談についてご連絡します。
 
-なお、出願資格、必要書類、語学要件、試験内容、出願期間、在留資格および入学時期等は、入試方式によって異なります。研究室では、出願資格の正式な判定や入試制度に関する個別の保証はできません。
+当研究室への進学を希望する場合は、事前相談を通して出願する入試方式を確認したうえで、所定の選考を受けて合格する必要があります。必要となる語学試験の成績、在留資格および在留カードに関する条件は、入試方式、課程、入学時期等によって異なります。例えば、博士前期課程の日本語基準の一般入学試験では、TOEIC Listening & Reading Testのスコアが必要です。また、外国籍の方が日本国内から出願する場合は、入試方式や試験時期によって、所定の期間まで有効な在留カードが必要となることがあります。
 
-出願前に、必ず情報理工学研究科の[入試情報](https://www.ritsumei.ac.jp/gsise/admission/)および最新の募集要項を確認してください。不明な点については、募集要項に記載された大学の担当窓口へお問い合わせください。
+研究室では、出願資格の正式な判定や入試制度に関する個別の保証はできません。出願前に、必ず情報理工学研究科の[入試情報](https://www.ritsumei.ac.jp/gsise/admission/)および最新の募集要項を確認してください。不明な点については、募集要項に記載された大学の担当窓口へお問い合わせください。
 
 <div id="english"></div>
 
@@ -141,6 +141,6 @@ The review process generally proceeds as follows:
 
 An interview is not offered to every applicant who submits materials. After reviewing the submitted documents, we will contact applicants if we decide to proceed to an interview.
 
-Eligibility requirements, required documents, language requirements, examination procedures, application periods, residence-status requirements, and enrollment dates vary depending on the admissions route. The laboratory cannot make an official determination of eligibility or guarantee that an applicant satisfies the admissions requirements.
+Applicants who wish to join our laboratory must consult with us in advance regarding the appropriate admissions route and then apply through that route, undergo the required selection process, and be admitted to the Graduate School. Requirements concerning language test scores, residence status, and residence cards vary depending on the admissions route, degree program, intended enrollment date, and other circumstances. For example, applicants to the Japanese-based Master’s Program through Regular Admissions are required to submit a TOEIC Listening & Reading Test score. Non-Japanese applicants applying from within Japan may also be required to hold a residence card valid for a specified period, depending on the admissions route and examination date.
 
-Before applying, please check the [official admissions information](https://en.ritsumei.ac.jp/gsise/admission/application/) and the latest application guidelines. Questions concerning formal admissions requirements should be directed to the university office specified in the application guidelines.
+The laboratory cannot make an official determination of an applicant’s eligibility or provide an individual guarantee concerning admissions requirements. Before applying, please check the [official admissions information](https://en.ritsumei.ac.jp/gsise/admission/application/) and the latest application guidelines. Questions concerning formal admissions requirements should be directed to the university office specified in the application guidelines.
