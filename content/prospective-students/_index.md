@@ -47,13 +47,13 @@ title = "学外から大学院進学を希望する方へ"
 1. 現在の所属を含む履歴書
 2. 学部の成績証明書
 3. 卒業研究の要旨または卒業論文の全文
-4. 機械学習、画像解析またはデータ解析の実装経験が分かる資料
+4. 機械学習、画像解析またはデータ解析の実装経験が分かる資料（該当する場合・任意）
 5. 希望する研究テーマおよび研究計画書（大学院入試用の所定様式ではなく、書式自由のWordファイルで1ページ程度）
 6. 日本語または英語能力を証明する資料がある場合は、その写し
 
 履歴書、成績証明書、卒業論文等は、日本語または英語以外で作成されたものでも受け付けます。ただし、内容を確認するため、卒業研究については日本語または英語の要旨を添付してください。また、成績証明書については、科目名と成績評価制度を確認できる日本語または英語の説明を添付してください。初回の事前相談では、翻訳機関等による正式な翻訳である必要はありません。正式出願時に必要な翻訳や証明については、最新の募集要項に従ってください。
 
-機械学習、画像解析またはデータ解析の実装経験がある場合は、可能であれば、ご自身で作成した代表的なソースコードとREADMEをメールに添付してください。READMEには、コードの概要、実行方法、使用したデータおよびご自身の担当範囲を記載してください。共同研究・共同制作の場合は、ご自身が担当した部分を明記してください。データセット、学習済みモデル、大容量ファイル、個人情報、認証情報および共有する権限のない資料は添付しないでください。提出資料について、面談で説明を求める場合があります。
+機械学習、画像解析またはデータ解析の実装経験がある場合は、可能であれば、ご自身が実装した代表的なソースコードの一部を添付するか、公開リポジトリのURLを記載してください。その目的と処理内容についても簡潔に説明してください。共同研究・共同制作の場合は、ご自身が担当した部分を明記してください。データセット、学習済みモデル、大容量ファイル、個人情報、認証情報および共有する権限のない資料は添付しないでください。提出資料について、面談で説明を求めることがあります。
 
 ### 事前相談から出願まで
 
@@ -118,13 +118,13 @@ Please attach the following materials:
 1. A current curriculum vitae, including your present affiliation
 2. Your undergraduate academic transcript
 3. An abstract or the full text of your undergraduate thesis
-4. Evidence of implementation experience in machine learning, image analysis, or data analysis
+4. If available, evidence of your implementation experience in machine learning, image analysis, or data analysis
 5. Your proposed research topic and research plan (approximately one page in a freely formatted Word document; please do not use the official graduate admissions form at this stage)
 6. Evidence of Japanese or English proficiency, if available
 
 Curricula vitae, academic transcripts, theses, and related documents written in languages other than Japanese or English are accepted. However, if your undergraduate thesis is written in another language, please also provide an abstract in Japanese or English. For an academic transcript written in another language, please provide a Japanese or English explanation of the course titles and grading system. Certified translations are not required for the initial consultation. Please follow the latest official application guidelines regarding translations and certification required for the formal application.
 
-If you have implementation experience in machine learning, image analysis, or data analysis, please attach representative source code written by you together with a README, if possible. The README should describe the code, how to run it, the data used, and your individual contribution. For collaborative work, clearly identify the parts for which you were responsible. Do not attach datasets, trained models, large files, personal information, credentials, or materials that you are not authorized to share. You may be asked to explain the submitted materials during an interview.
+If you have experience implementing machine learning, image analysis, or data analysis methods, please, if possible, attach a representative excerpt of source code that you implemented yourself or provide the URL of a publicly accessible repository. Please also briefly explain the purpose of the code and what it does. If the code was developed as part of a collaborative research or development project, clearly indicate the parts for which you were responsible. Do not attach datasets, trained models, large files, personal information, credentials, or materials that you are not authorized to share. You may be asked to explain the submitted materials during an interview.
 
 ### Process from Preliminary Consultation to Application
 
